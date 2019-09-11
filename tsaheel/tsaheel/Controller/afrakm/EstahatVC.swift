@@ -8,17 +8,20 @@
 
 import UIKit
 
-class EstahatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class EstahatVC: UIViewController, UITableViewDataSource , UITableViewDelegate {
 
     @IBOutlet weak var estrahatTablwView: UITableView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        estrahatTablwView.dataSource = self
-        estrahatTablwView.delegate = self
+        let btnBar = UIBarButtonItem()
+        //  btnBar.image = UIImage(named: "Phone")
+        btnBar.title = " "
+        self.navigationItem.backBarButtonItem = btnBar
 
+        
+        
         // Do any additional setup after loading the view.
     }
     

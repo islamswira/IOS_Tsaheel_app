@@ -12,7 +12,6 @@
 		561E87A32315851A000C243F /* editDelivaryUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E87A22315851A000C243F /* editDelivaryUserVC.swift */; };
 		561E87A523158532000C243F /* editCompanyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E87A423158532000C243F /* editCompanyUser.swift */; };
 		562619DA232004770006FB58 /* afrahkmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562619D9232004770006FB58 /* afrahkmVC.swift */; };
-		5650F8E92316CE1800F25B15 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650F8E82316CE1800F25B15 /* SWRevealViewController.m */; };
 		56738E1A231431F700201DA9 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56738E19231431F700201DA9 /* api.swift */; };
 		56738E1D2314336900201DA9 /* trimmedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56738E1C2314336900201DA9 /* trimmedString.swift */; };
 		56738E202314354D00201DA9 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56738E1F2314354D00201DA9 /* URLs.swift */; };
@@ -41,7 +40,6 @@
 		56B64AAC230F0F4E005E84BF /* forgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B64AAB230F0F4E005E84BF /* forgetPasswordVC.swift */; };
 		56BB63F1232564D7002D9A5D /* dateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB63F0232564D7002D9A5D /* dateVC.swift */; };
 		56BB63F723257158002D9A5D /* EstahatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB63F623257158002D9A5D /* EstahatVC.swift */; };
-		56BB63FA23280C7C002D9A5D /* fawater.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BB63F923280C7C002D9A5D /* fawater.storyboard */; };
 		56E734AE230AC12E0062C929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E734AD230AC12E0062C929 /* AppDelegate.swift */; };
 		56E734B3230AC12F0062C929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E734B1230AC12F0062C929 /* Main.storyboard */; };
 		56E734B5230AC1300062C929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E734B4230AC1300062C929 /* Assets.xcassets */; };
@@ -58,8 +56,6 @@
 		561E87A22315851A000C243F /* editDelivaryUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editDelivaryUserVC.swift; sourceTree = "<group>"; };
 		561E87A423158532000C243F /* editCompanyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editCompanyUser.swift; sourceTree = "<group>"; };
 		562619D9232004770006FB58 /* afrahkmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afrahkmVC.swift; sourceTree = "<group>"; };
-		5650F8E72316CE1800F25B15 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		5650F8E82316CE1800F25B15 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		56738E19231431F700201DA9 /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
 		56738E1C2314336900201DA9 /* trimmedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trimmedString.swift; sourceTree = "<group>"; };
 		56738E1F2314354D00201DA9 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
@@ -90,8 +86,6 @@
 		56B64AAB230F0F4E005E84BF /* forgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPasswordVC.swift; sourceTree = "<group>"; };
 		56BB63F0232564D7002D9A5D /* dateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateVC.swift; sourceTree = "<group>"; };
 		56BB63F623257158002D9A5D /* EstahatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstahatVC.swift; sourceTree = "<group>"; };
-		56BB63F82325735A002D9A5D /* tsaheel-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tsaheel-Bridging-Header.h"; sourceTree = "<group>"; };
-		56BB63F923280C7C002D9A5D /* fawater.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = fawater.storyboard; sourceTree = "<group>"; };
 		56E734AA230AC12E0062C929 /* tsaheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tsaheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E734AD230AC12E0062C929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E734B2230AC12F0062C929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -214,7 +208,6 @@
 		56E734A1230AC12E0062C929 = {
 			isa = PBXGroup;
 			children = (
-				56BB63F923280C7C002D9A5D /* fawater.storyboard */,
 				56889C8A231826C600A1AD13 /* data Services */,
 				56738E1E2314353000201DA9 /* ConfigFiles */,
 				56738E1B2314334E00201DA9 /* Extentions */,
@@ -242,9 +235,6 @@
 				56E734C1230B06880062C929 /* Model */,
 				56E734C0230B067F0062C929 /* Controller */,
 				56E734AD230AC12E0062C929 /* AppDelegate.swift */,
-				56BB63F82325735A002D9A5D /* tsaheel-Bridging-Header.h */,
-				5650F8E72316CE1800F25B15 /* SWRevealViewController.h */,
-				5650F8E82316CE1800F25B15 /* SWRevealViewController.m */,
 				56E734B1230AC12F0062C929 /* Main.storyboard */,
 				56E734B4230AC1300062C929 /* Assets.xcassets */,
 				56E734B6230AC1300062C929 /* LaunchScreen.storyboard */,
@@ -381,7 +371,6 @@
 				56E734B8230AC1300062C929 /* LaunchScreen.storyboard in Resources */,
 				56E734B5230AC1300062C929 /* Assets.xcassets in Resources */,
 				56E734B3230AC12F0062C929 /* Main.storyboard in Resources */,
-				56BB63FA23280C7C002D9A5D /* fawater.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +440,6 @@
 				56889C932319A04600A1AD13 /* Constants.swift in Sources */,
 				56773CD5230EBAD100FDCAF8 /* HomePageVC.swift in Sources */,
 				56EDAAE7231D67DE00B45C91 /* ImageData.swift in Sources */,
-				5650F8E92316CE1800F25B15 /* SWRevealViewController.m in Sources */,
 				56BB63F723257158002D9A5D /* EstahatVC.swift in Sources */,
 				561E87A523158532000C243F /* editCompanyUser.swift in Sources */,
 				561E87A123158505000C243F /* editNormalUserVC.swift in Sources */,
