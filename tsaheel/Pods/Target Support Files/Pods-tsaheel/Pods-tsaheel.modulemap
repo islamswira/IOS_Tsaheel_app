@@ -1,0 +1,6 @@
+framework module Pods_tsaheel {
+  umbrella header "Pods-tsaheel-umbrella.h"
+
+  export *
+  module * { export * }
+}

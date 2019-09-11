@@ -1,0 +1,201 @@
+
+/* Class = "UILabel"; text = "Image ID"; ObjectID = "1E8-Yp-gsx"; */
+"1E8-Yp-gsx.text" = "Image ID";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "2X0-LS-b7L"; */
+"2X0-LS-b7L.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "@example:BMW"; ObjectID = "2cL-rE-gmE"; */
+"2cL-rE-gmE.placeholder" = "@example:BMW";
+
+/* Class = "UILabel"; text = "تسجيل عميل عادي"; ObjectID = "3Sg-P7-gMN"; */
+"3Sg-P7-gMN.text" = "تسجيل عميل عادي";
+
+/* Class = "UITextField"; placeholder = "Mail"; ObjectID = "5B1-ZT-8VN"; */
+"5B1-ZT-8VN.placeholder" = "Mail";
+
+/* Class = "UILabel"; text = "PARTY"; ObjectID = "5MY-jo-Ram"; */
+"5MY-jo-Ram.text" = "PARTY";
+
+/* Class = "UILabel"; text = "تسجيل مندوب توصيل"; ObjectID = "6cD-F0-9xv"; */
+"6cD-F0-9xv.text" = "تسجيل مندوب توصيل";
+
+/* Class = "UITextField"; placeholder = "@example:BMW"; ObjectID = "7JR-Za-HCO"; */
+"7JR-Za-HCO.placeholder" = "@example:BMW";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "9bu-kN-bCi"; */
+"9bu-kN-bCi.text" = "Full Name";
+
+/* Class = "UILabel"; text = "E_mail"; ObjectID = "9fp-CF-yzQ"; */
+"9fp-CF-yzQ.text" = "E_mail";
+
+/* Class = "UITextField"; placeholder = "st.example"; ObjectID = "AGe-tY-IDq"; */
+"AGe-tY-IDq.placeholder" = "st.example";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Cx5-Zi-R7Q"; */
+"Cx5-Zi-R7Q.text" = "Password";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Dqd-ab-fOg"; */
+"Dqd-ab-fOg.text" = "Password";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "GEZ-9q-JRo"; */
+"GEZ-9q-JRo.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "تسجيل عميل عادي"; ObjectID = "HtN-1a-TBg"; */
+"HtN-1a-TBg.text" = "تسجيل عميل عادي";
+
+/* Class = "UILabel"; text = "Activity Type"; ObjectID = "IDT-RA-U45"; */
+"IDT-RA-U45.text" = "Activity Type";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IG0-zg-g90"; */
+"IG0-zg-g90.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "@example:BMW"; ObjectID = "Kkl-Rw-ELP"; */
+"Kkl-Rw-ELP.placeholder" = "@example:BMW";
+
+/* Class = "UILabel"; text = "Company Telephone"; ObjectID = "La4-f9-HQT"; */
+"La4-f9-HQT.text" = "Company Telephone";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "M42-ar-GvG"; */
+"M42-ar-GvG.placeholder" = "Phone Number";
+
+/* Class = "UIButton"; normalTitle = "صاحب شركه"; ObjectID = "N5V-zs-B1E"; */
+"N5V-zs-B1E.normalTitle" = "صاحب شركه";
+
+/* Class = "UILabel"; text = "الاسم بالكامل"; ObjectID = "NXA-1C-iRd"; */
+"NXA-1C-iRd.text" = "الاسم بالكامل";
+
+/* Class = "UILabel"; text = "ID Number"; ObjectID = "Nki-f9-2LZ"; */
+"Nki-f9-2LZ.text" = "ID Number";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "QAZ-70-KDV"; */
+"QAZ-70-KDV.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "@example:2019"; ObjectID = "Rdi-ln-8iw"; */
+"Rdi-ln-8iw.placeholder" = "@example:2019";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ScQ-2q-gf3"; */
+"ScQ-2q-gf3.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "حساب جديد"; ObjectID = "Sd1-Bk-4Kb"; */
+"Sd1-Bk-4Kb.normalTitle" = "حساب جديد";
+
+/* Class = "UITextField"; placeholder = "البريد الالكتروني"; ObjectID = "Twr-Hi-qga"; */
+"Twr-Hi-qga.placeholder" = "البريد الالكتروني";
+
+/* Class = "UITextField"; placeholder = "@example:2019"; ObjectID = "U0Y-QC-OZh"; */
+"U0Y-QC-OZh.placeholder" = "@example:2019";
+
+/* Class = "UILabel"; text = "Plate Number"; ObjectID = "UgB-WW-fYl"; */
+"UgB-WW-fYl.text" = "Plate Number";
+
+/* Class = "UILabel"; text = "Company Name"; ObjectID = "UtX-ss-i1d"; */
+"UtX-ss-i1d.text" = "Company Name";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "XaI-dz-UHC"; */
+"XaI-dz-UHC.text" = "Address";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ZC1-Aw-1Fk"; */
+"ZC1-Aw-1Fk.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "b3P-dp-RoH"; */
+"b3P-dp-RoH.placeholder" = "Phone";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "bRg-NY-T8I"; */
+"bRg-NY-T8I.placeholder" = "Phone Number";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bgc-Fw-wgP"; */
+"bgc-Fw-wgP.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "bp0-ox-ywj"; */
+"bp0-ox-ywj.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Car ID"; ObjectID = "cjC-XP-mFP"; */
+"cjC-XP-mFP.text" = "Car ID";
+
+/* Class = "UILabel"; text = "Company Phone"; ObjectID = "dka-yY-a5X"; */
+"dka-yY-a5X.text" = "Company Phone";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "eaj-qY-5Hw"; */
+"eaj-qY-5Hw.text" = "Phone Number";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "ejj-Se-ZGb"; */
+"ejj-Se-ZGb.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Car Type"; ObjectID = "gig-p2-Xj7"; */
+"gig-p2-Xj7.text" = "Car Type";
+
+/* Class = "UILabel"; text = "Car Model"; ObjectID = "h7Y-cW-eX2"; */
+"h7Y-cW-eX2.text" = "Car Model";
+
+/* Class = "UITextField"; placeholder = "plate"; ObjectID = "hNo-Eb-B2y"; */
+"hNo-Eb-B2y.placeholder" = "plate";
+
+/* Class = "UITextField"; placeholder = "@example:2019"; ObjectID = "hWr-Ga-awF"; */
+"hWr-Ga-awF.placeholder" = "@example:2019";
+
+/* Class = "UITextField"; placeholder = "@example:BMW"; ObjectID = "hwW-cO-bBq"; */
+"hwW-cO-bBq.placeholder" = "@example:BMW";
+
+/* Class = "UILabel"; text = "تسجيل صاحب شركه"; ObjectID = "iCC-5C-6h4"; */
+"iCC-5C-6h4.text" = "تسجيل صاحب شركه";
+
+/* Class = "UIButton"; normalTitle = "Upload "; ObjectID = "iCx-Hu-8p2"; */
+"iCx-Hu-8p2.normalTitle" = "Upload ";
+
+/* Class = "UIButton"; normalTitle = "عميل عادي"; ObjectID = "j1F-q9-XRN"; */
+"j1F-q9-XRN.normalTitle" = "عميل عادي";
+
+/* Class = "UIButton"; normalTitle = "مندوب توصيل"; ObjectID = "jtf-I1-EjQ"; */
+"jtf-I1-EjQ.normalTitle" = "مندوب توصيل";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "kqa-pR-lxO"; */
+"kqa-pR-lxO.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "example123@example.com"; ObjectID = "lUP-ZN-J7c"; */
+"lUP-ZN-J7c.placeholder" = "example123@example.com";
+
+/* Class = "UITextField"; placeholder = "كلمة المرور"; ObjectID = "mKG-ZJ-d0h"; */
+"mKG-ZJ-d0h.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Forget Password !?"; ObjectID = "mbP-Bf-Wpn"; */
+"mbP-Bf-Wpn.text" = "Forget Password !?";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "nA0-sr-t7t"; */
+"nA0-sr-t7t.text" = "Full Name";
+
+/* Class = "UITextField"; placeholder = "@example:2019"; ObjectID = "nGk-TO-rIl"; */
+"nGk-TO-rIl.placeholder" = "@example:2019";
+
+/* Class = "UITextField"; placeholder = "mail"; ObjectID = "oRU-dj-Gpo"; */
+"oRU-dj-Gpo.placeholder" = "mail";
+
+/* Class = "UILabel"; text = "E_mail"; ObjectID = "rIU-mY-vWS"; */
+"rIU-mY-vWS.text" = "E_mail";
+
+/* Class = "UILabel"; text = "Street Address"; ObjectID = "rca-KC-SBy"; */
+"rca-KC-SBy.text" = "Street Address";
+
+/* Class = "UILabel"; text = "E_mail"; ObjectID = "syj-Ng-Zza"; */
+"syj-Ng-Zza.text" = "E_mail";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "t2e-pW-d6p"; */
+"t2e-pW-d6p.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "@example:BMW"; ObjectID = "w16-IN-g6q"; */
+"w16-IN-g6q.placeholder" = "@example:BMW";
+
+/* Class = "UILabel"; text = "Neighborhood"; ObjectID = "w1C-dF-PCU"; */
+"w1C-dF-PCU.text" = "Neighborhood";
+
+/* Class = "UILabel"; text = "تسجيل الدخول "; ObjectID = "w8Y-2Q-0dh"; */
+"w8Y-2Q-0dh.text" = "تسجيل الدخول ";
+
+/* Class = "UITextField"; placeholder = "@example:2019"; ObjectID = "xtU-kz-RBl"; */
+"xtU-kz-RBl.placeholder" = "@example:2019";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "yTs-49-M7h"; */
+"yTs-49-M7h.text" = "City";
+
+/* Class = "UIButton"; normalTitle = "تسجيل دخول"; ObjectID = "yeZ-dn-h1e"; */
+"yeZ-dn-h1e.normalTitle" = "تسجيل دخول";
