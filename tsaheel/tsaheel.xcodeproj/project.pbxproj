@@ -12,6 +12,18 @@
 		561E87A32315851A000C243F /* editDelivaryUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E87A22315851A000C243F /* editDelivaryUserVC.swift */; };
 		561E87A523158532000C243F /* editCompanyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E87A423158532000C243F /* editCompanyUser.swift */; };
 		562619DA232004770006FB58 /* afrahkmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562619D9232004770006FB58 /* afrahkmVC.swift */; };
+		565F068A232A9C5F008DAB98 /* fatortElmadbaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F0689232A9C5F008DAB98 /* fatortElmadbaVC.swift */; };
+		565F068C232A9D85008DAB98 /* m5abezListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F068B232A9D85008DAB98 /* m5abezListVC.swift */; };
+		565F068F232BF411008DAB98 /* DateForDyafaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F068E232BF411008DAB98 /* DateForDyafaVC.swift */; };
+		565F0691232BF44B008DAB98 /* mrakzListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F0690232BF44B008DAB98 /* mrakzListVC.swift */; };
+		565F0693232BF4A3008DAB98 /* fatoraForMrtbatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F0692232BF4A3008DAB98 /* fatoraForMrtbatVC.swift */; };
+		565F0695232BF508008DAB98 /* fatoraForEstrahaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F0694232BF508008DAB98 /* fatoraForEstrahaVC.swift */; };
+		565F0697232BF579008DAB98 /* fatoraForDyafaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F0696232BF579008DAB98 /* fatoraForDyafaVC.swift */; };
+		565F069A232BF684008DAB98 /* DateForKwshAndTaelatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F0699232BF684008DAB98 /* DateForKwshAndTaelatVC.swift */; };
+		565F069C232BF6D6008DAB98 /* KwshWTawlatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F069B232BF6D6008DAB98 /* KwshWTawlatListVC.swift */; };
+		565F069E232BF880008DAB98 /* kwshWTawlatCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F069D232BF880008DAB98 /* kwshWTawlatCustomCell.swift */; };
+		565F06A0232BF8C0008DAB98 /* kwshShapesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F069F232BF8C0008DAB98 /* kwshShapesVC.swift */; };
+		565F06A2232BF8FD008DAB98 /* tawlatShapesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F06A1232BF8FD008DAB98 /* tawlatShapesVC.swift */; };
 		56738E1A231431F700201DA9 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56738E19231431F700201DA9 /* api.swift */; };
 		56738E1D2314336900201DA9 /* trimmedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56738E1C2314336900201DA9 /* trimmedString.swift */; };
 		56738E202314354D00201DA9 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56738E1F2314354D00201DA9 /* URLs.swift */; };
@@ -39,7 +51,15 @@
 		56B64AAA230F00D0005E84BF /* customSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B64AA9230F00D0005E84BF /* customSearchBar.swift */; };
 		56B64AAC230F0F4E005E84BF /* forgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B64AAB230F0F4E005E84BF /* forgetPasswordVC.swift */; };
 		56BB63F1232564D7002D9A5D /* dateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB63F0232564D7002D9A5D /* dateVC.swift */; };
-		56BB63F723257158002D9A5D /* EstahatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB63F623257158002D9A5D /* EstahatVC.swift */; };
+		56CC93FE23293833007B7E10 /* estrahaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC93FD23293833007B7E10 /* estrahaSB.storyboard */; };
+		56CC9400232938F4007B7E10 /* WalemaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC93FF232938F4007B7E10 /* WalemaSB.storyboard */; };
+		56CC94022329392A007B7E10 /* DyafaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC94012329392A007B7E10 /* DyafaSB.storyboard */; };
+		56CC940423293951007B7E10 /* KwshWTawlat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC940323293951007B7E10 /* KwshWTawlat.storyboard */; };
+		56CC940723293ACE007B7E10 /* EstrahatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC940623293ACE007B7E10 /* EstrahatListVC.swift */; };
+		56CC940923293E8B007B7E10 /* EstrahatcutomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC940823293E8B007B7E10 /* EstrahatcutomCell.swift */; };
+		56CC940C23294901007B7E10 /* DateForWalemaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC940B23294901007B7E10 /* DateForWalemaVC.swift */; };
+		56CC940E23295FB3007B7E10 /* mtabekhListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC940D23295FB3007B7E10 /* mtabekhListVC.swift */; };
+		56CC941023295FE2007B7E10 /* WalemaCutomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC940F23295FE2007B7E10 /* WalemaCutomCell.swift */; };
 		56E734AE230AC12E0062C929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E734AD230AC12E0062C929 /* AppDelegate.swift */; };
 		56E734B3230AC12F0062C929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E734B1230AC12F0062C929 /* Main.storyboard */; };
 		56E734B5230AC1300062C929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E734B4230AC1300062C929 /* Assets.xcassets */; };
@@ -56,6 +76,18 @@
 		561E87A22315851A000C243F /* editDelivaryUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editDelivaryUserVC.swift; sourceTree = "<group>"; };
 		561E87A423158532000C243F /* editCompanyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editCompanyUser.swift; sourceTree = "<group>"; };
 		562619D9232004770006FB58 /* afrahkmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afrahkmVC.swift; sourceTree = "<group>"; };
+		565F0689232A9C5F008DAB98 /* fatortElmadbaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatortElmadbaVC.swift; sourceTree = "<group>"; };
+		565F068B232A9D85008DAB98 /* m5abezListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = m5abezListVC.swift; sourceTree = "<group>"; };
+		565F068E232BF411008DAB98 /* DateForDyafaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateForDyafaVC.swift; sourceTree = "<group>"; };
+		565F0690232BF44B008DAB98 /* mrakzListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mrakzListVC.swift; sourceTree = "<group>"; };
+		565F0692232BF4A3008DAB98 /* fatoraForMrtbatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoraForMrtbatVC.swift; sourceTree = "<group>"; };
+		565F0694232BF508008DAB98 /* fatoraForEstrahaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoraForEstrahaVC.swift; sourceTree = "<group>"; };
+		565F0696232BF579008DAB98 /* fatoraForDyafaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoraForDyafaVC.swift; sourceTree = "<group>"; };
+		565F0699232BF684008DAB98 /* DateForKwshAndTaelatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateForKwshAndTaelatVC.swift; sourceTree = "<group>"; };
+		565F069B232BF6D6008DAB98 /* KwshWTawlatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwshWTawlatListVC.swift; sourceTree = "<group>"; };
+		565F069D232BF880008DAB98 /* kwshWTawlatCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kwshWTawlatCustomCell.swift; sourceTree = "<group>"; };
+		565F069F232BF8C0008DAB98 /* kwshShapesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kwshShapesVC.swift; sourceTree = "<group>"; };
+		565F06A1232BF8FD008DAB98 /* tawlatShapesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tawlatShapesVC.swift; sourceTree = "<group>"; };
 		56738E19231431F700201DA9 /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
 		56738E1C2314336900201DA9 /* trimmedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trimmedString.swift; sourceTree = "<group>"; };
 		56738E1F2314354D00201DA9 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
@@ -85,7 +117,15 @@
 		56B64AA9230F00D0005E84BF /* customSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSearchBar.swift; sourceTree = "<group>"; };
 		56B64AAB230F0F4E005E84BF /* forgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPasswordVC.swift; sourceTree = "<group>"; };
 		56BB63F0232564D7002D9A5D /* dateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateVC.swift; sourceTree = "<group>"; };
-		56BB63F623257158002D9A5D /* EstahatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstahatVC.swift; sourceTree = "<group>"; };
+		56CC93FD23293833007B7E10 /* estrahaSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = estrahaSB.storyboard; sourceTree = "<group>"; };
+		56CC93FF232938F4007B7E10 /* WalemaSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WalemaSB.storyboard; sourceTree = "<group>"; };
+		56CC94012329392A007B7E10 /* DyafaSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DyafaSB.storyboard; sourceTree = "<group>"; };
+		56CC940323293951007B7E10 /* KwshWTawlat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KwshWTawlat.storyboard; sourceTree = "<group>"; };
+		56CC940623293ACE007B7E10 /* EstrahatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstrahatListVC.swift; sourceTree = "<group>"; };
+		56CC940823293E8B007B7E10 /* EstrahatcutomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstrahatcutomCell.swift; sourceTree = "<group>"; };
+		56CC940B23294901007B7E10 /* DateForWalemaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateForWalemaVC.swift; sourceTree = "<group>"; };
+		56CC940D23295FB3007B7E10 /* mtabekhListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtabekhListVC.swift; sourceTree = "<group>"; };
+		56CC940F23295FE2007B7E10 /* WalemaCutomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalemaCutomCell.swift; sourceTree = "<group>"; };
 		56E734AA230AC12E0062C929 /* tsaheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tsaheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E734AD230AC12E0062C929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E734B2230AC12F0062C929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +150,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565F068D232BF3F5008DAB98 /* Dyafa */ = {
+			isa = PBXGroup;
+			children = (
+				565F068E232BF411008DAB98 /* DateForDyafaVC.swift */,
+				565F0690232BF44B008DAB98 /* mrakzListVC.swift */,
+				565F0696232BF579008DAB98 /* fatoraForDyafaVC.swift */,
+			);
+			path = Dyafa;
+			sourceTree = "<group>";
+		};
+		565F0698232BF64C008DAB98 /* Kwsh W Tawlat */ = {
+			isa = PBXGroup;
+			children = (
+				565F0699232BF684008DAB98 /* DateForKwshAndTaelatVC.swift */,
+				565F069B232BF6D6008DAB98 /* KwshWTawlatListVC.swift */,
+				565F069F232BF8C0008DAB98 /* kwshShapesVC.swift */,
+				565F06A1232BF8FD008DAB98 /* tawlatShapesVC.swift */,
+			);
+			path = "Kwsh W Tawlat";
+			sourceTree = "<group>";
+		};
 		56738E162314318D00201DA9 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +251,10 @@
 			isa = PBXGroup;
 			children = (
 				562619D9232004770006FB58 /* afrahkmVC.swift */,
-				56BB63F623257158002D9A5D /* EstahatVC.swift */,
+				56CC940523293A55007B7E10 /* Estrahat */,
+				56CC940A232948E0007B7E10 /* Walema */,
+				565F068D232BF3F5008DAB98 /* Dyafa */,
+				565F0698232BF64C008DAB98 /* Kwsh W Tawlat */,
 			);
 			path = afrakm;
 			sourceTree = "<group>";
@@ -200,9 +264,30 @@
 			children = (
 				56773CD4230EBAD100FDCAF8 /* HomePageVC.swift */,
 				56889C942319A4BA00A1AD13 /* MenuTableViewVC.swift */,
-				56BB63F0232564D7002D9A5D /* dateVC.swift */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		56CC940523293A55007B7E10 /* Estrahat */ = {
+			isa = PBXGroup;
+			children = (
+				56BB63F0232564D7002D9A5D /* dateVC.swift */,
+				56CC940623293ACE007B7E10 /* EstrahatListVC.swift */,
+				565F0694232BF508008DAB98 /* fatoraForEstrahaVC.swift */,
+			);
+			path = Estrahat;
+			sourceTree = "<group>";
+		};
+		56CC940A232948E0007B7E10 /* Walema */ = {
+			isa = PBXGroup;
+			children = (
+				56CC940B23294901007B7E10 /* DateForWalemaVC.swift */,
+				56CC940D23295FB3007B7E10 /* mtabekhListVC.swift */,
+				565F0689232A9C5F008DAB98 /* fatortElmadbaVC.swift */,
+				565F068B232A9D85008DAB98 /* m5abezListVC.swift */,
+				565F0692232BF4A3008DAB98 /* fatoraForMrtbatVC.swift */,
+			);
+			path = Walema;
 			sourceTree = "<group>";
 		};
 		56E734A1230AC12E0062C929 = {
@@ -236,6 +321,10 @@
 				56E734C0230B067F0062C929 /* Controller */,
 				56E734AD230AC12E0062C929 /* AppDelegate.swift */,
 				56E734B1230AC12F0062C929 /* Main.storyboard */,
+				56CC93FD23293833007B7E10 /* estrahaSB.storyboard */,
+				56CC93FF232938F4007B7E10 /* WalemaSB.storyboard */,
+				56CC94012329392A007B7E10 /* DyafaSB.storyboard */,
+				56CC940323293951007B7E10 /* KwshWTawlat.storyboard */,
 				56E734B4230AC1300062C929 /* Assets.xcassets */,
 				56E734B6230AC1300062C929 /* LaunchScreen.storyboard */,
 				56E734B9230AC1300062C929 /* Info.plist */,
@@ -251,6 +340,9 @@
 				569190DE230C161700AEF138 /* customButton.swift */,
 				56B64AA9230F00D0005E84BF /* customSearchBar.swift */,
 				56889C962319A51700A1AD13 /* MenuCell.swift */,
+				56CC940823293E8B007B7E10 /* EstrahatcutomCell.swift */,
+				56CC940F23295FE2007B7E10 /* WalemaCutomCell.swift */,
+				565F069D232BF880008DAB98 /* kwshWTawlatCustomCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -366,8 +458,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CC93FE23293833007B7E10 /* estrahaSB.storyboard in Resources */,
+				56CC9400232938F4007B7E10 /* WalemaSB.storyboard in Resources */,
 				56B64AA6230EDA8D005E84BF /* STC-Bold.ttf in Resources */,
+				56CC94022329392A007B7E10 /* DyafaSB.storyboard in Resources */,
 				56B64AA7230EDA8D005E84BF /* STC-Regular.ttf in Resources */,
+				56CC940423293951007B7E10 /* KwshWTawlat.storyboard in Resources */,
 				56E734B8230AC1300062C929 /* LaunchScreen.storyboard in Resources */,
 				56E734B5230AC1300062C929 /* Assets.xcassets in Resources */,
 				56E734B3230AC12F0062C929 /* Main.storyboard in Resources */,
@@ -424,38 +520,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BB63F1232564D7002D9A5D /* dateVC.swift in Sources */,
+				56CC940C23294901007B7E10 /* DateForWalemaVC.swift in Sources */,
 				569190DF230C161700AEF138 /* customButton.swift in Sources */,
+				565F06A0232BF8C0008DAB98 /* kwshShapesVC.swift in Sources */,
 				56738E202314354D00201DA9 /* URLs.swift in Sources */,
+				56CC940E23295FB3007B7E10 /* mtabekhListVC.swift in Sources */,
 				569190E3230C3D0600AEF138 /* normalUserSignUpVC.swift in Sources */,
+				565F069A232BF684008DAB98 /* DateForKwshAndTaelatVC.swift in Sources */,
 				56B64AAC230F0F4E005E84BF /* forgetPasswordVC.swift in Sources */,
+				56CC941023295FE2007B7E10 /* WalemaCutomCell.swift in Sources */,
 				56773CD7230EBB1500FDCAF8 /* homePageCell.swift in Sources */,
+				565F068A232A9C5F008DAB98 /* fatortElmadbaVC.swift in Sources */,
 				56EDAAE8231D67DE00B45C91 /* UploadImageModel.swift in Sources */,
+				565F069C232BF6D6008DAB98 /* KwshWTawlatListVC.swift in Sources */,
 				56889C8C231826E300A1AD13 /* dataServices.swift in Sources */,
+				565F06A2232BF8FD008DAB98 /* tawlatShapesVC.swift in Sources */,
 				56773CDB230EBD9700FDCAF8 /* HomePageModel.swift in Sources */,
+				565F068F232BF411008DAB98 /* DateForDyafaVC.swift in Sources */,
 				562619DA232004770006FB58 /* afrahkmVC.swift in Sources */,
 				56738E2223143E1600201DA9 /* helper.swift in Sources */,
+				565F069E232BF880008DAB98 /* kwshWTawlatCustomCell.swift in Sources */,
 				569190E5230C3D4B00AEF138 /* delivaryUserSignUpVC.swift in Sources */,
 				56B64AAA230F00D0005E84BF /* customSearchBar.swift in Sources */,
 				56E734AE230AC12E0062C929 /* AppDelegate.swift in Sources */,
 				56889C932319A04600A1AD13 /* Constants.swift in Sources */,
 				56773CD5230EBAD100FDCAF8 /* HomePageVC.swift in Sources */,
 				56EDAAE7231D67DE00B45C91 /* ImageData.swift in Sources */,
-				56BB63F723257158002D9A5D /* EstahatVC.swift in Sources */,
 				561E87A523158532000C243F /* editCompanyUser.swift in Sources */,
 				561E87A123158505000C243F /* editNormalUserVC.swift in Sources */,
+				565F0695232BF508008DAB98 /* fatoraForEstrahaVC.swift in Sources */,
 				5689597E2312C83E00CA9133 /* networkRes.swift in Sources */,
 				568959802312D8B000CA9133 /* loginPageVC.swift in Sources */,
 				561E879F231577F1000C243F /* imgPicker.swift in Sources */,
 				561E87A32315851A000C243F /* editDelivaryUserVC.swift in Sources */,
 				569190E1230C3CCC00AEF138 /* signUpVC.swift in Sources */,
 				56889C9123199C9600A1AD13 /* RegisterDataModel.swift in Sources */,
+				565F0697232BF579008DAB98 /* fatoraForDyafaVC.swift in Sources */,
 				569190E7230C3D7300AEF138 /* companyOwnerSignUpVC.swift in Sources */,
+				565F068C232A9D85008DAB98 /* m5abezListVC.swift in Sources */,
 				56889C9023199C9600A1AD13 /* Data.swift in Sources */,
 				56738E1D2314336900201DA9 /* trimmedString.swift in Sources */,
 				56889C952319A4BA00A1AD13 /* MenuTableViewVC.swift in Sources */,
 				56889C972319A51700A1AD13 /* MenuCell.swift in Sources */,
+				56CC940723293ACE007B7E10 /* EstrahatListVC.swift in Sources */,
+				56CC940923293E8B007B7E10 /* EstrahatcutomCell.swift in Sources */,
 				569190DD230C13A100AEF138 /* customTextField.swift in Sources */,
 				56738E1A231431F700201DA9 /* api.swift in Sources */,
+				565F0693232BF4A3008DAB98 /* fatoraForMrtbatVC.swift in Sources */,
+				565F0691232BF44B008DAB98 /* mrakzListVC.swift in Sources */,
 				5689597D2312C83E00CA9133 /* UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

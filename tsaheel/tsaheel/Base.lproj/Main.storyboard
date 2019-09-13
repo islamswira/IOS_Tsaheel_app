@@ -782,7 +782,6 @@
         <!--Menu Table ViewVC-->
         <scene sceneID="2b1-HF-rcp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wcf-FV-MiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="yyz-53-XCY" customClass="MenuTableViewVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qXM-hj-RGh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -819,6 +818,7 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wcf-FV-MiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5567" y="134"/>
         </scene>
@@ -2034,7 +2034,7 @@
                                             <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="HMd-nL-iFV" kind="show" id="pJa-Hp-CbZ"/>
+                                            <segue destination="k5Z-hk-Zpl" kind="show" id="fH4-TY-yVT"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlU-pP-rBu" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
@@ -2047,6 +2047,9 @@
                                         <state key="normal" title="الوليمة">
                                             <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="18b-cG-EFG" kind="show" id="crY-17-YDn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNO-Xd-38y" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="176" height="50"/>
@@ -2058,6 +2061,9 @@
                                         <state key="normal" title="الضيافة">
                                             <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="iBO-Pd-gjk" kind="show" id="67u-c5-KcZ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30n-GF-xrN" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="240" width="176" height="50"/>
@@ -2069,6 +2075,9 @@
                                         <state key="normal" title="  الكوش والطولات  ">
                                             <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="qtG-kk-92Y" kind="show" id="OO3-Ea-h4y"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -2104,213 +2113,37 @@
             </objects>
             <point key="canvasLocation" x="9240.7999999999993" y="132.68365817091455"/>
         </scene>
-        <!--DateVC-->
-        <scene sceneID="ux4-A4-31y">
+        <!--estrahaSB-->
+        <scene sceneID="qSU-NQ-lsx">
             <objects>
-                <viewController id="HMd-nL-iFV" customClass="dateVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VnT-y4-JIb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="-61" translatesAutoresizingMaskIntoConstraints="NO" id="OZU-gz-vC0">
-                                <rect key="frame" x="185" y="86" width="174" height="46"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ الحجز :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cp2-XT-pcT">
-                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="46"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar-with-a-clock-time-tools" translatesAutoresizingMaskIntoConstraints="NO" id="pl2-bl-CgE">
-                                        <rect key="frame" x="124" y="0.0" width="50" height="46"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="46" id="a3a-T5-k1y"/>
-                                            <constraint firstAttribute="width" constant="50" id="qe4-5Z-8Va"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="174" id="1qJ-be-igx"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="w9l-q2-wpd">
-                                <rect key="frame" x="16" y="135.5" width="343" height="396"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الأيام :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2H-Tf-Jtz">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="ekB-b1-BFv">
-                                        <rect key="frame" x="0.0" y="52" width="343" height="32"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="إلى :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrX-ID-HfP">
-                                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="32"/>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="من :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hn-tn-hEn">
-                                                <rect key="frame" x="221.5" y="0.0" width="121.5" height="32"/>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="bxC-LW-uGy">
-                                        <rect key="frame" x="0.0" y="104" width="343" height="32"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yir-gf-jIa" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="102" height="32"/>
-                                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <state key="normal" title="اختر التاريخ :">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwP-Kj-0Ry" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                                <rect key="frame" x="241" y="0.0" width="102" height="32"/>
-                                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="102" id="gkw-Cc-jlV"/>
-                                                    <constraint firstAttribute="height" constant="32" id="phg-nr-jHS"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <state key="normal" title="اختر التاريخ :">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Yir-gf-jIa" firstAttribute="width" secondItem="pwP-Kj-0Ry" secondAttribute="width" id="w5C-mn-FaI"/>
-                                            <constraint firstItem="Yir-gf-jIa" firstAttribute="height" secondItem="pwP-Kj-0Ry" secondAttribute="height" id="wQ0-pK-MwR"/>
-                                        </constraints>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الفترة :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLw-5k-Z87">
-                                        <rect key="frame" x="0.0" y="156" width="343" height="32"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Oae-Ep-U8S">
-                                        <rect key="frame" x="0.0" y="208" width="343" height="32"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="إلى :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHQ-HG-FaE">
-                                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="32"/>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="من :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbG-2r-suF">
-                                                <rect key="frame" x="221.5" y="0.0" width="121.5" height="32"/>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="0Ba-o1-IPC">
-                                        <rect key="frame" x="0.0" y="260" width="343" height="32"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKt-Fa-C3X" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="102" height="32"/>
-                                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <state key="normal" title="اختر الساعة">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPb-cp-j4k" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                                <rect key="frame" x="241" y="0.0" width="102" height="32"/>
-                                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="102" id="uv8-El-xbp"/>
-                                                    <constraint firstAttribute="height" constant="32" id="wjk-IG-tbr"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                                <state key="normal" title="اختر الساعة">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="TKt-Fa-C3X" firstAttribute="width" secondItem="rPb-cp-j4k" secondAttribute="width" id="OBv-4x-DNV"/>
-                                            <constraint firstItem="TKt-Fa-C3X" firstAttribute="height" secondItem="rPb-cp-j4k" secondAttribute="height" id="PLF-Bu-D1E"/>
-                                        </constraints>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المدينة :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDa-Yp-S9x">
-                                        <rect key="frame" x="0.0" y="312" width="343" height="32"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pld-Nt-H7b" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="364" width="343" height="32"/>
-                                        <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="17"/>
-                                        <state key="normal" title="اختر المدينة">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2x-P7-mxH" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                <rect key="frame" x="137.5" y="559" width="100" height="40"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="3pj-nq-bcx"/>
-                                    <constraint firstAttribute="height" constant="40" id="JoD-UZ-gsa"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="20"/>
-                                <state key="normal" title="بحث">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="h8i-S8-3X1" firstAttribute="trailing" secondItem="OZU-gz-vC0" secondAttribute="trailing" constant="16" id="5bj-Gz-qeq"/>
-                            <constraint firstItem="h8i-S8-3X1" firstAttribute="trailing" secondItem="w9l-q2-wpd" secondAttribute="trailing" constant="16" id="8oC-4Y-7tP"/>
-                            <constraint firstItem="w9l-q2-wpd" firstAttribute="leading" secondItem="h8i-S8-3X1" secondAttribute="leading" constant="16" id="9G0-rh-hKK"/>
-                            <constraint firstItem="w9l-q2-wpd" firstAttribute="centerY" secondItem="VnT-y4-JIb" secondAttribute="centerY" id="GGS-L4-6v1"/>
-                            <constraint firstItem="r2x-P7-mxH" firstAttribute="centerX" secondItem="VnT-y4-JIb" secondAttribute="centerX" id="cKr-8d-lnM"/>
-                            <constraint firstItem="OZU-gz-vC0" firstAttribute="top" secondItem="h8i-S8-3X1" secondAttribute="top" constant="22" id="jCs-5C-dPt"/>
-                            <constraint firstItem="h8i-S8-3X1" firstAttribute="bottom" secondItem="r2x-P7-mxH" secondAttribute="bottom" constant="68" id="seg-Ac-MBL"/>
-                            <constraint firstItem="w9l-q2-wpd" firstAttribute="centerX" secondItem="VnT-y4-JIb" secondAttribute="centerX" id="weM-GV-55p"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="h8i-S8-3X1"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5me-zP-Pls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="estrahaSB" id="k5Z-hk-Zpl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxX-Vr-uWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10080.799999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="10177" y="-97"/>
         </scene>
-        <!--EstahatVC-->
-        <scene sceneID="evC-dH-Xdd">
+        <!--WalemaSB-->
+        <scene sceneID="IOS-hM-zcs">
             <objects>
-                <viewController id="WB3-hj-f76" customClass="EstahatVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RYn-X5-XlE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="98E-yi-o2U">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="E7i-5L-4I2"/>
-                    </view>
-                    <connections>
-                        <outlet property="estrahatTablwView" destination="98E-yi-o2U" id="sP1-oX-B0q"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="99d-dQ-Y5t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="WalemaSB" id="18b-cG-EFG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xH0-MY-dyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10924" y="133.5832083958021"/>
+            <point key="canvasLocation" x="10193" y="5"/>
+        </scene>
+        <!--DyafaSB-->
+        <scene sceneID="7YK-GB-aeY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DyafaSB" id="iBO-Pd-gjk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYH-Zg-JIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10206" y="123"/>
+        </scene>
+        <!--KwshWTawlat-->
+        <scene sceneID="WvM-8h-mS2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="KwshWTawlat" id="qtG-kk-92Y" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VvZ-GU-e5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10203" y="242"/>
         </scene>
         <!--Edit Company User-->
         <scene sceneID="NYK-qY-dax">
@@ -2756,7 +2589,6 @@
     </scenes>
     <resources>
         <image name="Phone" width="18" height="18"/>
-        <image name="calendar-with-a-clock-time-tools" width="46" height="46"/>
         <image name="go-back-arrow" width="22" height="22"/>
         <image name="lock" width="11" height="14"/>
         <image name="loginphoto" width="256" height="256"/>
