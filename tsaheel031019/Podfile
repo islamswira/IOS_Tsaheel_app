@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'tsaheel' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for tsaheel
+
+    pod 'Alamofire' 
+    pod 'SwiftyJSON', '4.0.0'
+    pod 'BRYXBanner', '0.8.2'
+    pod 'IQKeyboardManagerSwift'
+    pod 'AlamofireImage', '~> 3.5'
+    pod 'FSCalendar'
+    pod 'EzPopup'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+    pod 'iOSDropDown'
+    
+
+end
