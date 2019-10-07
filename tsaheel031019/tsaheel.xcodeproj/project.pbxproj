@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		560104E32349946D004356B1 /* trfehkmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560104E22349946D004356B1 /* trfehkmVC.swift */; };
 		560104E52349949A004356B1 /* trfehkm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560104E42349949A004356B1 /* trfehkm.storyboard */; };
+		560E38A0234B99710036028F /* confirmFatoraOfEstrahaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E389F234B99710036028F /* confirmFatoraOfEstrahaVC.swift */; };
+		560E38A2234B9A210036028F /* typeOfMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38A1234B9A210036028F /* typeOfMoneyVC.swift */; };
+		560E38A4234B9F550036028F /* confirmPaymentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38A3234B9F550036028F /* confirmPaymentDetailsVC.swift */; };
+		560E38A6234B9F7E0036028F /* donePaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38A5234B9F7E0036028F /* donePaymentVC.swift */; };
+		560E38AB234BA1630036028F /* dateForShoppingFromStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38AA234BA1630036028F /* dateForShoppingFromStoreVC.swift */; };
+		560E38AD234BA6F30036028F /* storesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38AC234BA6F30036028F /* storesListVC.swift */; };
+		560E38AF234BA8E50036028F /* storeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38AE234BA8E50036028F /* storeDetailsVC.swift */; };
+		560E38B1234BB2700036028F /* typeOfStoreListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38B0234BB2700036028F /* typeOfStoreListVC.swift */; };
+		560E38B3234BB7010036028F /* categoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E38B2234BB7010036028F /* categoryListVC.swift */; };
 		561E879F231577F1000C243F /* imgPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E879E231577F1000C243F /* imgPicker.swift */; };
 		561E87A123158505000C243F /* editNormalUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E87A023158505000C243F /* editNormalUserVC.swift */; };
 		561E87A32315851A000C243F /* editDelivaryUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E87A22315851A000C243F /* editDelivaryUserVC.swift */; };
@@ -95,6 +104,15 @@
 /* Begin PBXFileReference section */
 		560104E22349946D004356B1 /* trfehkmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trfehkmVC.swift; sourceTree = "<group>"; };
 		560104E42349949A004356B1 /* trfehkm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = trfehkm.storyboard; sourceTree = "<group>"; };
+		560E389F234B99710036028F /* confirmFatoraOfEstrahaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmFatoraOfEstrahaVC.swift; sourceTree = "<group>"; };
+		560E38A1234B9A210036028F /* typeOfMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeOfMoneyVC.swift; sourceTree = "<group>"; };
+		560E38A3234B9F550036028F /* confirmPaymentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmPaymentDetailsVC.swift; sourceTree = "<group>"; };
+		560E38A5234B9F7E0036028F /* donePaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donePaymentVC.swift; sourceTree = "<group>"; };
+		560E38AA234BA1630036028F /* dateForShoppingFromStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateForShoppingFromStoreVC.swift; sourceTree = "<group>"; };
+		560E38AC234BA6F30036028F /* storesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storesListVC.swift; sourceTree = "<group>"; };
+		560E38AE234BA8E50036028F /* storeDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeDetailsVC.swift; sourceTree = "<group>"; };
+		560E38B0234BB2700036028F /* typeOfStoreListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeOfStoreListVC.swift; sourceTree = "<group>"; };
+		560E38B2234BB7010036028F /* categoryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryListVC.swift; sourceTree = "<group>"; };
 		561E879E231577F1000C243F /* imgPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgPicker.swift; sourceTree = "<group>"; };
 		561E87A023158505000C243F /* editNormalUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editNormalUserVC.swift; sourceTree = "<group>"; };
 		561E87A22315851A000C243F /* editDelivaryUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editDelivaryUserVC.swift; sourceTree = "<group>"; };
@@ -206,10 +224,39 @@
 			path = trfehkm;
 			sourceTree = "<group>";
 		};
+		560E38A7234BA1040036028F /* shoppingFromStores */ = {
+			isa = PBXGroup;
+			children = (
+				560E38AA234BA1630036028F /* dateForShoppingFromStoreVC.swift */,
+				560E38AC234BA6F30036028F /* storesListVC.swift */,
+				560E38AE234BA8E50036028F /* storeDetailsVC.swift */,
+				560E38B0234BB2700036028F /* typeOfStoreListVC.swift */,
+				560E38B2234BB7010036028F /* categoryListVC.swift */,
+			);
+			path = shoppingFromStores;
+			sourceTree = "<group>";
+		};
+		560E38A8234BA1190036028F /* shoppingFromItems */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shoppingFromItems;
+			sourceTree = "<group>";
+		};
+		560E38A9234BA1320036028F /* shoppingFromSahlApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shoppingFromSahlApp;
+			sourceTree = "<group>";
+		};
 		564BE6772347A03B00A75A76 /* mo2nkm */ = {
 			isa = PBXGroup;
 			children = (
 				564BE67A2347A1B900A75A76 /* Mo2nkmVC.swift */,
+				560E38A7234BA1040036028F /* shoppingFromStores */,
+				560E38A8234BA1190036028F /* shoppingFromItems */,
+				560E38A9234BA1320036028F /* shoppingFromSahlApp */,
 			);
 			path = mo2nkm;
 			sourceTree = "<group>";
@@ -359,6 +406,10 @@
 				5B678FA52335281900BA6658 /* MapViewController.swift */,
 				5B678FA72335283D00BA6658 /* DetailsViewController.swift */,
 				56D6057A234A4C50008664DD /* FatoraOfEstraha.swift */,
+				560E389F234B99710036028F /* confirmFatoraOfEstrahaVC.swift */,
+				560E38A1234B9A210036028F /* typeOfMoneyVC.swift */,
+				560E38A3234B9F550036028F /* confirmPaymentDetailsVC.swift */,
+				560E38A5234B9F7E0036028F /* donePaymentVC.swift */,
 			);
 			path = Estrahat;
 			sourceTree = "<group>";
@@ -447,12 +498,12 @@
 		56E734C0230B067F0062C929 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				56BB63F52325712E002D9A5D /* main */,
+				56BB63F423257119002D9A5D /* afrakm */,
+				564BE6772347A03B00A75A76 /* mo2nkm */,
+				564BE6782347A18100A75A76 /* m4tryaty */,
 				560104E123499452004356B1 /* trfehkm */,
 				564BE6792347A18C00A75A76 /* Setting */,
-				564BE6782347A18100A75A76 /* m4tryaty */,
-				564BE6772347A03B00A75A76 /* mo2nkm */,
-				56BB63F423257119002D9A5D /* afrakm */,
-				56BB63F52325712E002D9A5D /* main */,
 				56BB63F3232570EA002D9A5D /* others */,
 				56BB63F2232570CD002D9A5D /* auth */,
 			);
@@ -665,7 +716,10 @@
 				56BB63F1232564D7002D9A5D /* dateVC.swift in Sources */,
 				56CC940C23294901007B7E10 /* DateForWalemaVC.swift in Sources */,
 				569190DF230C161700AEF138 /* customButton.swift in Sources */,
+				560E38A4234B9F550036028F /* confirmPaymentDetailsVC.swift in Sources */,
+				560E38B3234BB7010036028F /* categoryListVC.swift in Sources */,
 				56D6057B234A4C50008664DD /* FatoraOfEstraha.swift in Sources */,
+				560E38AD234BA6F30036028F /* storesListVC.swift in Sources */,
 				565F06A0232BF8C0008DAB98 /* kwshShapesVC.swift in Sources */,
 				56738E202314354D00201DA9 /* URLs.swift in Sources */,
 				56CC940E23295FB3007B7E10 /* mtabekhListVC.swift in Sources */,
@@ -676,14 +730,18 @@
 				56CC941023295FE2007B7E10 /* WalemaCutomCell.swift in Sources */,
 				5B678FA82335283D00BA6658 /* DetailsViewController.swift in Sources */,
 				560104E32349946D004356B1 /* trfehkmVC.swift in Sources */,
+				560E38A0234B99710036028F /* confirmFatoraOfEstrahaVC.swift in Sources */,
 				563A123C23499123008F92C6 /* m4tryatyCustomCell.swift in Sources */,
 				56773CD7230EBB1500FDCAF8 /* homePageCell.swift in Sources */,
 				565F068A232A9C5F008DAB98 /* fatortElmadbaVC.swift in Sources */,
 				56EDAAE8231D67DE00B45C91 /* UploadImageModel.swift in Sources */,
+				560E38B1234BB2700036028F /* typeOfStoreListVC.swift in Sources */,
 				564BE67B2347A1B900A75A76 /* Mo2nkmVC.swift in Sources */,
 				5B5EFB172332D490001DAB42 /* mrakzCustomCell.swift in Sources */,
+				560E38AF234BA8E50036028F /* storeDetailsVC.swift in Sources */,
 				565F069C232BF6D6008DAB98 /* KwshWTawlatListVC.swift in Sources */,
 				56889C8C231826E300A1AD13 /* dataServices.swift in Sources */,
+				560E38A2234B9A210036028F /* typeOfMoneyVC.swift in Sources */,
 				5B697046232EC7380032E6E3 /* SideMenuViewController.swift in Sources */,
 				565F06A2232BF8FD008DAB98 /* tawlatShapesVC.swift in Sources */,
 				56773CDB230EBD9700FDCAF8 /* HomePageModel.swift in Sources */,
@@ -715,6 +773,7 @@
 				56889C9123199C9600A1AD13 /* RegisterDataModel.swift in Sources */,
 				5B678FA22334FA3100BA6658 /* EstrahaDetailsModel.swift in Sources */,
 				565F0697232BF579008DAB98 /* fatoraForDyafaVC.swift in Sources */,
+				560E38A6234B9F7E0036028F /* donePaymentVC.swift in Sources */,
 				569190E7230C3D7300AEF138 /* companyOwnerSignUpVC.swift in Sources */,
 				5B69704A232EC8970032E6E3 /* SWRevealViewController.m in Sources */,
 				565F068C232A9D85008DAB98 /* m5abezListVC.swift in Sources */,
@@ -726,6 +785,7 @@
 				56889C972319A51700A1AD13 /* MenuCell.swift in Sources */,
 				56CC940723293ACE007B7E10 /* EstrahatListVC.swift in Sources */,
 				56CC940923293E8B007B7E10 /* EstrahatcutomCell.swift in Sources */,
+				560E38AB234BA1630036028F /* dateForShoppingFromStoreVC.swift in Sources */,
 				569190DD230C13A100AEF138 /* customTextField.swift in Sources */,
 				56738E1A231431F700201DA9 /* api.swift in Sources */,
 				565F0693232BF4A3008DAB98 /* fatoraForMrtbatVC.swift in Sources */,

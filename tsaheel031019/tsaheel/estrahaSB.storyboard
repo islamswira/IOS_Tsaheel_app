@@ -26,13 +26,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الإستراحات المتوفرة :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHZ-b6-YX1">
-                                <rect key="frame" x="188.5" y="93" width="205.5" height="43.5"/>
+                                <rect key="frame" x="208" y="93" width="186" height="30.5"/>
                                 <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                 <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="72o-VL-Txh">
-                                <rect key="frame" x="0.0" y="146.5" width="414" height="715.5"/>
+                                <rect key="frame" x="0.0" y="133.5" width="414" height="728.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="estahaCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="estahaCell" rowHeight="181" id="xWQ-Eh-Tjn" customClass="EstrahatcutomCell" customModule="tsaheel" customModuleProvider="target">
@@ -50,7 +50,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="استراحة العجلان" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKb-r4-kDM">
-                                                    <rect key="frame" x="59" y="21" width="148" height="40"/>
+                                                    <rect key="frame" x="67" y="21" width="140" height="28"/>
                                                     <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="24"/>
                                                     <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -117,19 +117,19 @@
                                         <rect key="frame" x="0.0" y="88" width="414" height="2550"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تفاصيل الإستراحة :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGC-GG-fBo">
-                                                <rect key="frame" x="211.5" y="10" width="182.5" height="43.5"/>
+                                                <rect key="frame" x="215" y="10" width="179" height="30.5"/>
                                                 <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                 <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="استراحة السعادة " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COJ-Au-fFu">
-                                                <rect key="frame" x="224.5" y="63.5" width="169.5" height="43.5"/>
+                                                <rect key="frame" x="233.5" y="50.5" width="160.5" height="30.5"/>
                                                 <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                 <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nam-nm-9yL" customClass="customView" customModule="tsaheel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="127" width="414" height="182"/>
+                                                <rect key="frame" x="0.0" y="101" width="414" height="182"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yourMeals" translatesAutoresizingMaskIntoConstraints="NO" id="gjL-8P-OXv">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="182"/>
@@ -145,7 +145,7 @@
                                                 </constraints>
                                             </view>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="WTi-ps-tEF">
-                                                <rect key="frame" x="8" y="319" width="394" height="31"/>
+                                                <rect key="frame" x="8" y="293" width="394" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="M7g-0N-cp5"/>
                                                 </constraints>
@@ -159,7 +159,7 @@
                                                 </connections>
                                             </segmentedControl>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ya8-Zo-P6N">
-                                                <rect key="frame" x="0.0" y="359" width="414" height="896"/>
+                                                <rect key="frame" x="0.0" y="333" width="414" height="896"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" priority="250" constant="896" id="ndp-jy-PEe"/>
                                                 </constraints>
@@ -168,7 +168,7 @@
                                                 </connections>
                                             </containerView>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WuP-M9-q1r">
-                                                <rect key="frame" x="0.0" y="359" width="414" height="2191"/>
+                                                <rect key="frame" x="0.0" y="333" width="414" height="2217"/>
                                                 <connections>
                                                     <segue destination="t5c-wS-y2d" kind="embed" id="ugC-rY-clU"/>
                                                 </connections>
@@ -247,150 +247,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6IE-lm-1fD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="602.89855072463774" y="116.51785714285714"/>
-        </scene>
-        <!--DateVC-->
-        <scene sceneID="dVW-BA-tby">
-            <objects>
-                <viewController id="h0K-9k-njo" customClass="dateVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3uQ-Tr-sNH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="-61" translatesAutoresizingMaskIntoConstraints="NO" id="V0L-ze-b2O">
-                                <rect key="frame" x="224" y="66" width="174" height="46"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ الحجز :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Io3-p0-SDv">
-                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="46"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar-with-a-clock-time-tools" translatesAutoresizingMaskIntoConstraints="NO" id="huM-Bq-cGF">
-                                        <rect key="frame" x="124" y="0.0" width="50" height="46"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="BAW-B8-muA"/>
-                                            <constraint firstAttribute="height" constant="46" id="hr9-nh-miB"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="174" id="xs0-sv-m5x"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-ap-cHy">
-                                <rect key="frame" x="16" y="276" width="382" height="344"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الأيام :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGe-MX-ggP">
-                                        <rect key="frame" x="0.0" y="0.0" width="382" height="40.5"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="82S-Be-UxP">
-                                        <rect key="frame" x="0.0" y="60.5" width="382" height="41"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الى :" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zrh-Wf-mBd">
-                                                <rect key="frame" x="0.0" y="0.0" width="141" height="41"/>
-                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="من : " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ko-lf-wNu">
-                                                <rect key="frame" x="241" y="0.0" width="141" height="41"/>
-                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الفترة :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URJ-N8-egS">
-                                        <rect key="frame" x="0.0" y="121.5" width="382" height="40.5"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Koi-sv-oSy">
-                                        <rect key="frame" x="0.0" y="182" width="382" height="40.5"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الى :" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HPY-zc-a6G">
-                                                <rect key="frame" x="0.0" y="0.0" width="141" height="40.5"/>
-                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="من : " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="30z-fn-gqK">
-                                                <rect key="frame" x="241" y="0.0" width="141" height="40.5"/>
-                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المدينة :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4S-hY-JNE">
-                                        <rect key="frame" x="0.0" y="242.5" width="382" height="41"/>
-                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
-                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="اختر المدينة" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="njt-kz-nD0" customClass="DropDown" customModule="iOSDropDown">
-                                        <rect key="frame" x="0.0" y="303.5" width="382" height="40.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
-                                                <real key="value" value="30"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="listHeight">
-                                                <real key="value" value="100"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="checkMarkEnabled" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="344" id="fQ6-YT-Bg9"/>
-                                </constraints>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pP-z9-aSu" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                <rect key="frame" x="157" y="754" width="100" height="40"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="5EF-lw-YuX"/>
-                                    <constraint firstAttribute="width" constant="100" id="TvO-f1-5aq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="20"/>
-                                <state key="normal" title="بحث">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="RkO-ap-cHy" firstAttribute="centerX" secondItem="3uQ-Tr-sNH" secondAttribute="centerX" id="4e2-vO-Plg"/>
-                            <constraint firstItem="RkO-ap-cHy" firstAttribute="centerY" secondItem="3uQ-Tr-sNH" secondAttribute="centerY" id="6ZR-rK-8dJ"/>
-                            <constraint firstItem="V0L-ze-b2O" firstAttribute="top" secondItem="W0J-YF-DJJ" secondAttribute="top" constant="22" id="Dsq-6n-wr0"/>
-                            <constraint firstItem="RkO-ap-cHy" firstAttribute="leading" secondItem="W0J-YF-DJJ" secondAttribute="leading" constant="16" id="EMA-j3-IL0"/>
-                            <constraint firstItem="3pP-z9-aSu" firstAttribute="centerX" secondItem="3uQ-Tr-sNH" secondAttribute="centerX" id="Ssx-CD-MvN"/>
-                            <constraint firstItem="W0J-YF-DJJ" firstAttribute="trailing" secondItem="V0L-ze-b2O" secondAttribute="trailing" constant="16" id="V1T-BA-par"/>
-                            <constraint firstItem="W0J-YF-DJJ" firstAttribute="trailing" secondItem="RkO-ap-cHy" secondAttribute="trailing" constant="16" id="rFU-1C-HTZ"/>
-                            <constraint firstItem="W0J-YF-DJJ" firstAttribute="bottom" secondItem="3pP-z9-aSu" secondAttribute="bottom" constant="68" id="udp-lU-zPd"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="W0J-YF-DJJ"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="BlK-wx-rKC"/>
-                    <connections>
-                        <outlet property="SearchButton" destination="3pP-z9-aSu" id="uTB-R4-her"/>
-                        <outlet property="chooseCityTF" destination="njt-kz-nD0" id="ghW-mB-GtH"/>
-                        <outlet property="fromDay" destination="3ko-lf-wNu" id="sY7-rc-duf"/>
-                        <outlet property="fromHour" destination="30z-fn-gqK" id="kmq-0W-R10"/>
-                        <outlet property="toDay" destination="Zrh-Wf-mBd" id="wI0-gR-LrP"/>
-                        <outlet property="toHour" destination="HPY-zc-a6G" id="3x9-cF-zqQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="woR-5c-g1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1525" y="117"/>
         </scene>
         <!--DateVC-->
         <scene sceneID="m9m-0X-ZlI">
@@ -574,7 +430,7 @@
             <objects>
                 <viewController storyboardIdentifier="detailsVc" id="t5c-wS-y2d" customClass="DetailsViewController" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fX2-2b-p6D">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2191"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2217"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zn7-c3-Lr6" customClass="customView" customModule="tsaheel" customModuleProvider="target">
@@ -797,7 +653,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التدخين" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s48-ii-R6C">
-                                                            <rect key="frame" x="305.5" y="4.5" width="49.5" height="35"/>
+                                                            <rect key="frame" x="311" y="4.5" width="44" height="35"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="35" id="xjJ-pi-Yen"/>
                                                             </constraints>
@@ -806,7 +662,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEL-Cn-tcZ">
-                                                            <rect key="frame" x="188" y="4.5" width="18" height="35"/>
+                                                            <rect key="frame" x="187.5" y="4.5" width="19" height="35"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="35" id="vGt-nw-eCn"/>
                                                             </constraints>
@@ -1561,22 +1417,22 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="تفاصيل الحجز :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZJ-U4-DHh">
-                                                <rect key="frame" x="260.5" y="10" width="143.5" height="43.5"/>
+                                                <rect key="frame" x="257" y="10" width="147" height="30.5"/>
                                                 <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                 <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sph-ov-54i">
-                                                <rect key="frame" x="0.0" y="63.5" width="414" height="350"/>
+                                                <rect key="frame" x="0.0" y="50.5" width="414" height="350"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="اسم الإستراحة" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjz-e2-Z7h">
-                                                        <rect key="frame" x="253.5" y="10" width="140.5" height="43.5"/>
+                                                        <rect key="frame" x="261" y="10" width="133" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjP-fH-Id2">
-                                                        <rect key="frame" x="10" y="63.5" width="384" height="276.5"/>
+                                                        <rect key="frame" x="10" y="50.5" width="384" height="289.5"/>
                                                         <string key="text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1595,34 +1451,34 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p0K-6H-mSi">
-                                                <rect key="frame" x="0.0" y="423.5" width="414" height="120"/>
+                                                <rect key="frame" x="0.0" y="410.5" width="414" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="الأيام" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FY6-5w-7QV">
-                                                        <rect key="frame" x="341.5" y="10" width="52.5" height="43.5"/>
+                                                        <rect key="frame" x="349.5" y="10" width="44.5" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="من" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5B-58-R4u">
-                                                        <rect key="frame" x="285.5" y="41" width="28.5" height="38.5"/>
+                                                        <rect key="frame" x="291.5" y="46.5" width="22.5" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="٢٠-١٠-٢٠١٩" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccJ-is-Rid">
-                                                        <rect key="frame" x="260.5" y="73" width="78.5" height="38.5"/>
+                                                        <rect key="frame" x="245.5" y="67" width="115" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="إلى" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af5-YZ-9Kc">
-                                                        <rect key="frame" x="70" y="41" width="28" height="38.5"/>
+                                                        <rect key="frame" x="70" y="46.5" width="27.5" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="٢٠-١٠-٢٠١٩" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcp-a2-tV2">
-                                                        <rect key="frame" x="45" y="73" width="78.5" height="38.5"/>
+                                                        <rect key="frame" x="26.5" y="67" width="115" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1644,34 +1500,34 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GvE-f5-u2p">
-                                                <rect key="frame" x="0.0" y="553.5" width="414" height="120"/>
+                                                <rect key="frame" x="0.0" y="540.5" width="414" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="الفتره" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSG-ie-8uB">
-                                                        <rect key="frame" x="338.5" y="10" width="55.5" height="43.5"/>
+                                                        <rect key="frame" x="345.5" y="10" width="48.5" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="من" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laz-Dp-q7g">
-                                                        <rect key="frame" x="285.5" y="41" width="28.5" height="38.5"/>
+                                                        <rect key="frame" x="291.5" y="46.5" width="22.5" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="10:30 pm" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbe-I9-cSB">
-                                                        <rect key="frame" x="258" y="73" width="83.5" height="38.5"/>
+                                                        <rect key="frame" x="254" y="67" width="97.5" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="إلى" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1J-W8-my5">
-                                                        <rect key="frame" x="70" y="41" width="28" height="38.5"/>
+                                                        <rect key="frame" x="70" y="46.5" width="27.5" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="12:40 am" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0C-VM-eHn">
-                                                        <rect key="frame" x="43" y="73" width="82.5" height="38.5"/>
+                                                        <rect key="frame" x="36" y="67" width="96" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1693,34 +1549,34 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZP-1k-tqZ">
-                                                <rect key="frame" x="0.0" y="683.5" width="414" height="120"/>
+                                                <rect key="frame" x="0.0" y="670.5" width="414" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="نوع الحجز" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXy-4M-0Ku">
-                                                        <rect key="frame" x="298.5" y="10" width="95.5" height="43.5"/>
+                                                        <rect key="frame" x="299" y="10" width="95" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="مناسبه" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWX-YJ-fAO">
-                                                        <rect key="frame" x="253.5" y="41" width="60.5" height="38.5"/>
+                                                        <rect key="frame" x="259" y="46.5" width="55" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="40 RS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSx-Rc-Maa">
-                                                        <rect key="frame" x="255" y="73" width="57.5" height="38.5"/>
+                                                        <rect key="frame" x="255" y="67" width="63" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="يوم كامل" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bB-cR-WaF">
-                                                        <rect key="frame" x="70" y="41" width="84.5" height="38.5"/>
+                                                        <rect key="frame" x="70" y="46.5" width="68" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="300 RS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U9-ET-vXW">
-                                                        <rect key="frame" x="78" y="73" width="69" height="38.5"/>
+                                                        <rect key="frame" x="66.5" y="67" width="75.5" height="27"/>
                                                         <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="23"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1742,16 +1598,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="25n-51-OM0">
-                                                <rect key="frame" x="0.0" y="1091.5" width="414" height="64"/>
+                                                <rect key="frame" x="0.0" y="1078.5" width="414" height="64"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="المبلغ الإجمالي" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0b-uT-XQ6">
-                                                        <rect key="frame" x="244.5" y="10" width="149.5" height="43.5"/>
+                                                        <rect key="frame" x="263" y="10" width="131" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="3000 RS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOg-qm-J9e">
-                                                        <rect key="frame" x="10" y="10" width="92.5" height="43.5"/>
+                                                        <rect key="frame" x="10" y="10" width="100" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1767,16 +1623,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMJ-mt-0Lm">
-                                                <rect key="frame" x="0.0" y="813.5" width="414" height="268"/>
+                                                <rect key="frame" x="0.0" y="800.5" width="414" height="268"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="الخدمات ذات الرسوم المدفوعه" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVN-v1-QJ0">
-                                                        <rect key="frame" x="90" y="10" width="304" height="43.5"/>
+                                                        <rect key="frame" x="135.5" y="10" width="258.5" height="30.5"/>
                                                         <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SID-lC-5gM">
-                                                        <rect key="frame" x="10" y="63.5" width="394" height="194.5"/>
+                                                        <rect key="frame" x="10" y="50.5" width="394" height="207.5"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <prototypes>
                                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="BBB-iJ-URy">
@@ -1787,7 +1643,7 @@
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الخدمه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgK-Qg-tJU">
-                                                                            <rect key="frame" x="311" y="20" width="53" height="21"/>
+                                                                            <rect key="frame" x="337.5" y="20" width="46.5" height="21"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="21" id="INY-pp-rz8"/>
                                                                             </constraints>
@@ -1796,7 +1652,7 @@
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="٣٠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSh-l3-G4E">
-                                                                            <rect key="frame" x="10" y="19" width="18" height="21"/>
+                                                                            <rect key="frame" x="10" y="19" width="21.5" height="21"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="21" id="XYj-pD-aqM"/>
                                                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="s4N-KW-wb0"/>
@@ -1829,7 +1685,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYc-eO-J9y" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
-                                                <rect key="frame" x="137" y="1175.5" width="140" height="46"/>
+                                                <rect key="frame" x="137" y="1162.5" width="140" height="36"/>
                                                 <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="6nk-uT-MaX"/>
@@ -1840,6 +1696,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="serachButtonPressed:" destination="653-em-4Ny" eventType="touchUpInside" id="lk1-6H-T0V"/>
+                                                    <segue destination="Dcz-On-YVN" kind="show" id="bfr-eV-mKQ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1895,25 +1752,614 @@
             </objects>
             <point key="canvasLocation" x="5494.202898550725" y="2150.2232142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Confirm Fatora Of EstrahaVC-->
         <scene sceneID="Ev5-19-wsp">
             <objects>
-                <viewController id="Dcz-On-YVN" sceneMemberID="viewController">
+                <viewController id="Dcz-On-YVN" customClass="confirmFatoraOfEstrahaVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZUy-wm-R5h">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="867"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="تأكيد البيانات :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ria-22-ceP">
+                                <rect key="frame" x="264" y="54" width="140" height="43.5"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="W7U-Tr-sd4">
+                                <rect key="frame" x="20" y="216" width="374" height="435.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="المدينة :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41Y-dw-B2U">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="أختار المدينة" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qdt-mB-8WU" customClass="DropDown" customModule="iOSDropDown">
+                                        <rect key="frame" x="0.0" y="66.5" width="374" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="kZM-xu-63b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedRowColor">
+                                                <color key="value" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
+                                                <real key="value" value="70"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="listHeight">
+                                                <real key="value" value="300"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="arrowColor">
+                                                <color key="value" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="checkMarkEnabled" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="المنطقة :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9b-Fw-cgO">
+                                        <rect key="frame" x="0.0" y="149.5" width="374" height="43.5"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="أختار المنطقه" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSs-89-HVB" customClass="DropDown" customModule="iOSDropDown">
+                                        <rect key="frame" x="0.0" y="216" width="374" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="5fm-mj-ALP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedRowColor">
+                                                <color key="value" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
+                                                <real key="value" value="70"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="listHeight">
+                                                <real key="value" value="300"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="arrowColor">
+                                                <color key="value" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="checkMarkEnabled" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="عنوان السكن :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUs-ej-EBA">
+                                        <rect key="frame" x="0.0" y="299" width="374" height="43.5"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ادخل العنوان الخاص بك " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KiD-dk-sBK" customClass="customTextField" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="365.5" width="374" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Roc-bC-dUt"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="50"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRedios">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMA-jW-9aA" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                <rect key="frame" x="30" y="751.5" width="354" height="70"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="CdY-z4-9MQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                <state key="normal" title="إتمام الحجز">
+                                    <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CMA-jW-9aA" firstAttribute="top" secondItem="W7U-Tr-sd4" secondAttribute="bottom" constant="100" id="6XQ-TS-bE1"/>
+                            <constraint firstItem="mRB-7z-eUZ" firstAttribute="trailing" secondItem="ria-22-ceP" secondAttribute="trailing" constant="10" id="6es-Ew-xtU"/>
+                            <constraint firstItem="ria-22-ceP" firstAttribute="top" secondItem="mRB-7z-eUZ" secondAttribute="top" constant="10" id="OSP-aM-sVf"/>
+                            <constraint firstItem="mRB-7z-eUZ" firstAttribute="trailing" secondItem="CMA-jW-9aA" secondAttribute="trailing" constant="30" id="Tv8-Lx-Cph"/>
+                            <constraint firstItem="CMA-jW-9aA" firstAttribute="centerX" secondItem="ZUy-wm-R5h" secondAttribute="centerX" id="Wvv-l6-yvd"/>
+                            <constraint firstItem="mRB-7z-eUZ" firstAttribute="trailing" secondItem="W7U-Tr-sd4" secondAttribute="trailing" constant="20" id="YEw-0l-vaq"/>
+                            <constraint firstItem="W7U-Tr-sd4" firstAttribute="centerX" secondItem="ZUy-wm-R5h" secondAttribute="centerX" id="l2p-mc-6PI"/>
+                            <constraint firstItem="W7U-Tr-sd4" firstAttribute="centerY" secondItem="ZUy-wm-R5h" secondAttribute="centerY" id="mA2-8P-Jed"/>
+                            <constraint firstItem="CMA-jW-9aA" firstAttribute="leading" secondItem="mRB-7z-eUZ" secondAttribute="leading" constant="30" id="wdc-RA-cii"/>
+                            <constraint firstItem="W7U-Tr-sd4" firstAttribute="leading" secondItem="mRB-7z-eUZ" secondAttribute="leading" constant="20" id="zFD-bt-QHK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="mRB-7z-eUZ"/>
                     </view>
+                    <size key="freeformSize" width="414" height="867"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftl-7m-ofN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6772" y="2171"/>
+            <point key="canvasLocation" x="6629" y="2150"/>
+        </scene>
+        <!--Type Of MoneyVC-->
+        <scene sceneID="KaL-BB-OeV">
+            <objects>
+                <viewController id="mDq-yr-ugw" customClass="typeOfMoneyVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eo0-0V-0Td">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="QDe-zv-MQF">
+                                <rect key="frame" x="86.5" y="303" width="241" height="290"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOk-WO-Jhs" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="241" height="50"/>
+                                        <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Owg-aV-BuJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                        <state key="normal" title="فيزا">
+                                            <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaS-Y9-9wc" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="80" width="241" height="50"/>
+                                        <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ue4-7l-pGx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                        <state key="normal" title="ماستر كارد">
+                                            <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBG-o1-x0G" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="160" width="241" height="50"/>
+                                        <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Yu4-GS-K7W"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                        <state key="normal" title="بطاقة مدى">
+                                            <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdl-BL-unj" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="240" width="241" height="50"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="R3h-ch-7jc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                        <state key="normal" title="  الدفع عند الإستلام(قريبا)  ">
+                                            <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="طرق الدفع :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydu-8B-e7i">
+                                <rect key="frame" x="284" y="54" width="120" height="43.5"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QDe-zv-MQF" firstAttribute="centerY" secondItem="eo0-0V-0Td" secondAttribute="centerY" id="Cjj-m7-iBa"/>
+                            <constraint firstItem="Fxe-xh-jUQ" firstAttribute="trailing" secondItem="ydu-8B-e7i" secondAttribute="trailing" constant="10" id="KpY-xn-YSB"/>
+                            <constraint firstItem="QDe-zv-MQF" firstAttribute="centerX" secondItem="eo0-0V-0Td" secondAttribute="centerX" id="NvK-Bj-J7f"/>
+                            <constraint firstItem="ydu-8B-e7i" firstAttribute="top" secondItem="Fxe-xh-jUQ" secondAttribute="top" constant="10" id="Rxd-uG-pS5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fxe-xh-jUQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HjC-pm-UBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7693" y="2150"/>
+        </scene>
+        <!--Confirm Payment DetailsVC-->
+        <scene sceneID="qH9-8B-Scq">
+            <objects>
+                <viewController id="eYU-jP-zR0" customClass="confirmPaymentDetailsVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oTt-Rz-Aid">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="الدفع :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xR-R8-O6V">
+                                <rect key="frame" x="336" y="54" width="68" height="43.5"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="ادخل بيانات البطاقة :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXm-t2-1H0">
+                                <rect key="frame" x="20" y="122.5" width="374" height="43.5"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="xVj-e4-2Kx">
+                                <rect key="frame" x="20" y="266" width="374" height="337.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="رقم البطاقة :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70Z-BG-crZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="33.5"/>
+                                        <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="20"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yLU-Tr-KWv" customClass="customTextField" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="56.5" width="374" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="wpO-KT-Mdf"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="50"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRedios">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="63" translatesAutoresizingMaskIntoConstraints="NO" id="rg4-GT-JVR">
+                                        <rect key="frame" x="0.0" y="139.5" width="374" height="33.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="رقم cvv" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3C-pz-1WY">
+                                                <rect key="frame" x="0.0" y="0.0" width="155.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="20"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="تاريخ الإنتهاء" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKp-pt-0Sz">
+                                                <rect key="frame" x="218.5" y="0.0" width="155.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="20"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="wGC-Lq-0Ax">
+                                        <rect key="frame" x="0.0" y="196" width="374" height="60"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ycR-tS-IGH" customClass="customTextField" customModule="tsaheel" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="60"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="50"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRedios">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1PD-VR-fSz" customClass="customTextField" customModule="tsaheel" customModuleProvider="target">
+                                                <rect key="frame" x="200.5" y="0.0" width="173.5" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="rAQ-sp-URI"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="50"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRedios">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgs-4R-mq8">
+                                        <rect key="frame" x="0.0" y="279" width="374" height="2"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="tZS-0T-Fm8"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="63" translatesAutoresizingMaskIntoConstraints="NO" id="rU7-Yg-lOm">
+                                        <rect key="frame" x="0.0" y="304" width="374" height="33.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="٣٠٠" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dld-Jz-qQr">
+                                                <rect key="frame" x="0.0" y="0.0" width="155.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="20"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="المبلغ الإجمالي " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ju-R2-ah5">
+                                                <rect key="frame" x="218.5" y="0.0" width="155.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="STC-Regular" family="STC" pointSize="20"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="bWu-Ta-vep"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="IBB-Yl-7cA">
+                                <rect key="frame" x="60" y="653.5" width="294" height="130"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pmq-Fb-bCO" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="50"/>
+                                        <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="djG-Hu-A4e"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                        <state key="normal" title="دفع">
+                                            <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EK-Rw-Hil" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="80" width="294" height="50"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="72s-tx-Rvk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                        <state key="normal" title="رجوع">
+                                            <color key="titleColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IBB-Yl-7cA" firstAttribute="top" secondItem="xVj-e4-2Kx" secondAttribute="bottom" constant="50" id="93t-DV-U34"/>
+                            <constraint firstItem="eXm-t2-1H0" firstAttribute="leading" secondItem="7vU-ej-SNi" secondAttribute="leading" constant="20" id="A2W-gQ-s1g"/>
+                            <constraint firstItem="IBB-Yl-7cA" firstAttribute="leading" secondItem="7vU-ej-SNi" secondAttribute="leading" constant="60" id="Cbd-iF-7Pp"/>
+                            <constraint firstItem="xVj-e4-2Kx" firstAttribute="leading" secondItem="7vU-ej-SNi" secondAttribute="leading" constant="20" id="PsN-Dz-s26"/>
+                            <constraint firstItem="7vU-ej-SNi" firstAttribute="trailing" secondItem="IBB-Yl-7cA" secondAttribute="trailing" constant="60" id="aTW-RS-pXN"/>
+                            <constraint firstItem="7vU-ej-SNi" firstAttribute="trailing" secondItem="4xR-R8-O6V" secondAttribute="trailing" constant="10" id="c1t-Cf-xA0"/>
+                            <constraint firstItem="7vU-ej-SNi" firstAttribute="trailing" secondItem="eXm-t2-1H0" secondAttribute="trailing" constant="20" id="gBG-uX-QHd"/>
+                            <constraint firstItem="7vU-ej-SNi" firstAttribute="trailing" secondItem="xVj-e4-2Kx" secondAttribute="trailing" constant="20" id="lx8-e8-fp4"/>
+                            <constraint firstItem="4xR-R8-O6V" firstAttribute="top" secondItem="7vU-ej-SNi" secondAttribute="top" constant="10" id="pjR-Un-P6D"/>
+                            <constraint firstItem="eXm-t2-1H0" firstAttribute="top" secondItem="4xR-R8-O6V" secondAttribute="bottom" constant="25" id="pn5-3y-G7o"/>
+                            <constraint firstItem="xVj-e4-2Kx" firstAttribute="top" secondItem="eXm-t2-1H0" secondAttribute="bottom" constant="100" id="wAQ-A6-uev"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7vU-ej-SNi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCQ-6O-jlq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8704" y="2150"/>
+        </scene>
+        <!--Done PaymentVC-->
+        <scene sceneID="Oiy-1e-eyv">
+            <objects>
+                <viewController id="94f-3H-Etc" customClass="donePaymentVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KS5-hl-RKo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="تمت عملية الدفع :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVM-Jy-AEU">
+                                <rect key="frame" x="225" y="54" width="179" height="43.5"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="تمت العملية بنجاح " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUr-Ev-PEX">
+                                <rect key="frame" x="20" y="122.5" width="374" height="43.5"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yourParty" translatesAutoresizingMaskIntoConstraints="NO" id="nss-Be-A21">
+                                <rect key="frame" x="20" y="266" width="374" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="u6A-Jt-4Xe"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNF-nM-3cf" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                <rect key="frame" x="60" y="516" width="294" height="60"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="QS5-kX-jr2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="23"/>
+                                <state key="normal" title="العوده للرئيسية ">
+                                    <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nss-Be-A21" firstAttribute="top" secondItem="jUr-Ev-PEX" secondAttribute="bottom" constant="100" id="43v-WE-tfd"/>
+                            <constraint firstItem="g9h-eo-xTa" firstAttribute="trailing" secondItem="nss-Be-A21" secondAttribute="trailing" constant="20" id="59r-AT-tyf"/>
+                            <constraint firstItem="nss-Be-A21" firstAttribute="leading" secondItem="g9h-eo-xTa" secondAttribute="leading" constant="20" id="7KX-z2-ruN"/>
+                            <constraint firstItem="eNF-nM-3cf" firstAttribute="top" secondItem="nss-Be-A21" secondAttribute="bottom" constant="50" id="Ak0-zb-b5a"/>
+                            <constraint firstItem="eNF-nM-3cf" firstAttribute="leading" secondItem="g9h-eo-xTa" secondAttribute="leading" constant="60" id="EXS-ty-fPe"/>
+                            <constraint firstItem="jUr-Ev-PEX" firstAttribute="top" secondItem="UVM-Jy-AEU" secondAttribute="bottom" constant="25" id="Fzy-3u-8WD"/>
+                            <constraint firstItem="jUr-Ev-PEX" firstAttribute="leading" secondItem="g9h-eo-xTa" secondAttribute="leading" constant="20" id="RCY-wP-P1K"/>
+                            <constraint firstItem="g9h-eo-xTa" firstAttribute="trailing" secondItem="UVM-Jy-AEU" secondAttribute="trailing" constant="10" id="hH5-hd-GHN"/>
+                            <constraint firstItem="g9h-eo-xTa" firstAttribute="trailing" secondItem="eNF-nM-3cf" secondAttribute="trailing" constant="60" id="rx3-KO-RoS"/>
+                            <constraint firstItem="UVM-Jy-AEU" firstAttribute="top" secondItem="g9h-eo-xTa" secondAttribute="top" constant="10" id="td4-y5-xyA"/>
+                            <constraint firstItem="g9h-eo-xTa" firstAttribute="trailing" secondItem="jUr-Ev-PEX" secondAttribute="trailing" constant="20" id="xgz-Ec-TPe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="g9h-eo-xTa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="woa-Mr-IbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9666.6666666666679" y="2149.5535714285711"/>
+        </scene>
+        <!--DateVC-->
+        <scene sceneID="oWJ-JT-yTf">
+            <objects>
+                <viewController id="Rkk-dr-e1F" customClass="dateVC" customModule="tsaheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fDd-NY-Jhs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="-61" translatesAutoresizingMaskIntoConstraints="NO" id="cqc-Ac-pc1">
+                                <rect key="frame" x="224" y="66" width="174" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ الحجز :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKp-9q-nTe">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="46"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="26"/>
+                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar-with-a-clock-time-tools" translatesAutoresizingMaskIntoConstraints="NO" id="e4Y-eR-Hfd">
+                                        <rect key="frame" x="124" y="0.0" width="50" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="JdZ-Z9-E1G"/>
+                                            <constraint firstAttribute="width" constant="50" id="yZl-PJ-5Rt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="fgm-MK-Zrc"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="E6H-EL-LqR">
+                                <rect key="frame" x="16" y="276" width="382" height="344"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الأيام :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uy-5Q-LvC">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="40.5"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
+                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="gXN-Tv-cCm">
+                                        <rect key="frame" x="0.0" y="60.5" width="382" height="41"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الى :" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HKY-Lo-Vrh">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="41"/>
+                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="من : " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YJF-pK-4v5">
+                                                <rect key="frame" x="241" y="0.0" width="141" height="41"/>
+                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الفترة :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBC-FI-kCw">
+                                        <rect key="frame" x="0.0" y="121.5" width="382" height="40.5"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
+                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="WtT-8D-CBq">
+                                        <rect key="frame" x="0.0" y="182" width="382" height="40.5"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الى :" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AMU-rk-0qx">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="40.5"/>
+                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="من : " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QaK-e6-ep3">
+                                                <rect key="frame" x="241" y="0.0" width="141" height="40.5"/>
+                                                <color key="textColor" red="0.15940681100000001" green="0.62422674889999996" blue="0.29204139109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المدينة :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwF-qD-xaq">
+                                        <rect key="frame" x="0.0" y="242.5" width="382" height="41"/>
+                                        <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="38"/>
+                                        <color key="textColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="اختر المدينة" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iAJ-VQ-lcf" customClass="DropDown" customModule="iOSDropDown">
+                                        <rect key="frame" x="0.0" y="303.5" width="382" height="40.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="listHeight">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="checkMarkEnabled" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="344" id="HM1-lZ-RLI"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfw-wz-Uzf" customClass="customButton" customModule="tsaheel" customModuleProvider="target">
+                                <rect key="frame" x="157" y="754" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.62745098040000002" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Cxi-dH-xjD"/>
+                                    <constraint firstAttribute="height" constant="40" id="ULx-qr-Rvz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="20"/>
+                                <state key="normal" title="بحث">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sfw-wz-Uzf" firstAttribute="centerX" secondItem="fDd-NY-Jhs" secondAttribute="centerX" id="2jg-aK-Fcg"/>
+                            <constraint firstItem="E6H-EL-LqR" firstAttribute="leading" secondItem="A7i-2v-0GU" secondAttribute="leading" constant="16" id="5Oe-4H-9n7"/>
+                            <constraint firstItem="A7i-2v-0GU" firstAttribute="trailing" secondItem="cqc-Ac-pc1" secondAttribute="trailing" constant="16" id="8Iq-WA-4AV"/>
+                            <constraint firstItem="A7i-2v-0GU" firstAttribute="bottom" secondItem="Sfw-wz-Uzf" secondAttribute="bottom" constant="68" id="8aE-6D-fwU"/>
+                            <constraint firstItem="E6H-EL-LqR" firstAttribute="centerY" secondItem="fDd-NY-Jhs" secondAttribute="centerY" id="a6q-b8-fgY"/>
+                            <constraint firstItem="E6H-EL-LqR" firstAttribute="centerX" secondItem="fDd-NY-Jhs" secondAttribute="centerX" id="k9p-f4-SCk"/>
+                            <constraint firstItem="cqc-Ac-pc1" firstAttribute="top" secondItem="A7i-2v-0GU" secondAttribute="top" constant="22" id="kba-RE-zL3"/>
+                            <constraint firstItem="A7i-2v-0GU" firstAttribute="trailing" secondItem="E6H-EL-LqR" secondAttribute="trailing" constant="16" id="tCd-ej-EpX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="A7i-2v-0GU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bKf-UG-Y4g"/>
+                    <connections>
+                        <outlet property="SearchButton" destination="Sfw-wz-Uzf" id="RZF-CD-uO5"/>
+                        <outlet property="chooseCityTF" destination="iAJ-VQ-lcf" id="oGe-XX-TxG"/>
+                        <outlet property="fromDay" destination="YJF-pK-4v5" id="Lps-xe-T3S"/>
+                        <outlet property="fromHour" destination="QaK-e6-ep3" id="wdn-rt-PPD"/>
+                        <outlet property="toDay" destination="HKY-Lo-Vrh" id="EPM-6l-91m"/>
+                        <outlet property="toHour" destination="AMU-rk-0qx" id="Zcs-yG-93S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YBu-GI-Vj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1525" y="117"/>
         </scene>
     </scenes>
     <resources>
         <image name="calendar-with-a-clock-time-tools" width="46" height="46"/>
         <image name="go-back-arrow" width="22" height="22"/>
         <image name="yourMeals" width="1200" height="706"/>
+        <image name="yourParty" width="1380" height="920"/>
     </resources>
 </document>
