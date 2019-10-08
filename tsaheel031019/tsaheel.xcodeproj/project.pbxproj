@@ -71,6 +71,16 @@
 		56B64AAA230F00D0005E84BF /* customSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B64AA9230F00D0005E84BF /* customSearchBar.swift */; };
 		56B64AAC230F0F4E005E84BF /* forgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B64AAB230F0F4E005E84BF /* forgetPasswordVC.swift */; };
 		56BB63F1232564D7002D9A5D /* dateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB63F0232564D7002D9A5D /* dateVC.swift */; };
+		56C0DB18234CEF5700D43AEF /* btakatyWMkafatyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB17234CEF5700D43AEF /* btakatyWMkafatyVC.swift */; };
+		56C0DB1A234CEF9F00D43AEF /* btakaDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB19234CEF9F00D43AEF /* btakaDetailsVC.swift */; };
+		56C0DB1D234CF3FC00D43AEF /* estrga3WEstbdalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB1C234CF3FC00D43AEF /* estrga3WEstbdalVC.swift */; };
+		56C0DB20234CF59400D43AEF /* shkaywWEktra7atVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB1F234CF59400D43AEF /* shkaywWEktra7atVC.swift */; };
+		56C0DB23234CF78400D43AEF /* aboutApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB22234CF78400D43AEF /* aboutApplicationVC.swift */; };
+		56C0DB25234CF7DD00D43AEF /* whoAreTsaheelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB24234CF7DD00D43AEF /* whoAreTsaheelVC.swift */; };
+		56C0DB27234CF82400D43AEF /* rateTsaheelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB26234CF82400D43AEF /* rateTsaheelVC.swift */; };
+		56C0DB29234CF85C00D43AEF /* privicyAndUseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB28234CF85C00D43AEF /* privicyAndUseVC.swift */; };
+		56C0DB2B234CF89900D43AEF /* documentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB2A234CF89900D43AEF /* documentationVC.swift */; };
+		56C0DB2D234CF8C700D43AEF /* callUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0DB2C234CF8C700D43AEF /* callUsVC.swift */; };
 		56CC93FE23293833007B7E10 /* estrahaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC93FD23293833007B7E10 /* estrahaSB.storyboard */; };
 		56CC9400232938F4007B7E10 /* WalemaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC93FF232938F4007B7E10 /* WalemaSB.storyboard */; };
 		56CC94022329392A007B7E10 /* DyafaSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC94012329392A007B7E10 /* DyafaSB.storyboard */; };
@@ -87,6 +97,13 @@
 		56E734B8230AC1300062C929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E734B6230AC1300062C929 /* LaunchScreen.storyboard */; };
 		56EDAAE7231D67DE00B45C91 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAAE5231D67DE00B45C91 /* ImageData.swift */; };
 		56EDAAE8231D67DE00B45C91 /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAAE6231D67DE00B45C91 /* UploadImageModel.swift */; };
+		56F8D6CD234CC9C60081145B /* itemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6CC234CC9C60081145B /* itemDetailsVC.swift */; };
+		56F8D6CF234CCDF90081145B /* fatoraForShoppingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6CE234CCDF90081145B /* fatoraForShoppingVC.swift */; };
+		56F8D6D1234CD9150081145B /* DateForShoppingFromItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6D0234CD9150081145B /* DateForShoppingFromItemsVC.swift */; };
+		56F8D6D3234CD9C60081145B /* ItemsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6D2234CD9C60081145B /* ItemsListVC.swift */; };
+		56F8D6D5234CDA3F0081145B /* typeOfStoredItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6D4234CDA3F0081145B /* typeOfStoredItemsVC.swift */; };
+		56F8D6D7234CDBCA0081145B /* BestPriceForSHoppingFromItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6D6234CDBCA0081145B /* BestPriceForSHoppingFromItemVC.swift */; };
+		56F8D6D9234CDCA40081145B /* ShoppingCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8D6D8234CDCA40081145B /* ShoppingCardVC.swift */; };
 		5B419E22233FDDAC00EB55A1 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B419E21233FDDAC00EB55A1 /* CheckInternet.swift */; };
 		5B5EFB112332C963001DAB42 /* MaadobaOrMoratebatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EFB102332C963001DAB42 /* MaadobaOrMoratebatViewController.swift */; };
 		5B5EFB132332CA00001DAB42 /* MaadobaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EFB122332CA00001DAB42 /* MaadobaDetailsViewController.swift */; };
@@ -168,6 +185,16 @@
 		56B64AA9230F00D0005E84BF /* customSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSearchBar.swift; sourceTree = "<group>"; };
 		56B64AAB230F0F4E005E84BF /* forgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPasswordVC.swift; sourceTree = "<group>"; };
 		56BB63F0232564D7002D9A5D /* dateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateVC.swift; sourceTree = "<group>"; };
+		56C0DB17234CEF5700D43AEF /* btakatyWMkafatyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btakatyWMkafatyVC.swift; sourceTree = "<group>"; };
+		56C0DB19234CEF9F00D43AEF /* btakaDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btakaDetailsVC.swift; sourceTree = "<group>"; };
+		56C0DB1C234CF3FC00D43AEF /* estrga3WEstbdalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estrga3WEstbdalVC.swift; sourceTree = "<group>"; };
+		56C0DB1F234CF59400D43AEF /* shkaywWEktra7atVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shkaywWEktra7atVC.swift; sourceTree = "<group>"; };
+		56C0DB22234CF78400D43AEF /* aboutApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutApplicationVC.swift; sourceTree = "<group>"; };
+		56C0DB24234CF7DD00D43AEF /* whoAreTsaheelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whoAreTsaheelVC.swift; sourceTree = "<group>"; };
+		56C0DB26234CF82400D43AEF /* rateTsaheelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rateTsaheelVC.swift; sourceTree = "<group>"; };
+		56C0DB28234CF85C00D43AEF /* privicyAndUseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privicyAndUseVC.swift; sourceTree = "<group>"; };
+		56C0DB2A234CF89900D43AEF /* documentationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = documentationVC.swift; sourceTree = "<group>"; };
+		56C0DB2C234CF8C700D43AEF /* callUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callUsVC.swift; sourceTree = "<group>"; };
 		56CC93FD23293833007B7E10 /* estrahaSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = estrahaSB.storyboard; sourceTree = "<group>"; };
 		56CC93FF232938F4007B7E10 /* WalemaSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WalemaSB.storyboard; sourceTree = "<group>"; };
 		56CC94012329392A007B7E10 /* DyafaSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DyafaSB.storyboard; sourceTree = "<group>"; };
@@ -186,6 +213,13 @@
 		56E734B9230AC1300062C929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56EDAAE5231D67DE00B45C91 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		56EDAAE6231D67DE00B45C91 /* UploadImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageModel.swift; sourceTree = "<group>"; };
+		56F8D6CC234CC9C60081145B /* itemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemDetailsVC.swift; sourceTree = "<group>"; };
+		56F8D6CE234CCDF90081145B /* fatoraForShoppingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoraForShoppingVC.swift; sourceTree = "<group>"; };
+		56F8D6D0234CD9150081145B /* DateForShoppingFromItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateForShoppingFromItemsVC.swift; sourceTree = "<group>"; };
+		56F8D6D2234CD9C60081145B /* ItemsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListVC.swift; sourceTree = "<group>"; };
+		56F8D6D4234CDA3F0081145B /* typeOfStoredItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeOfStoredItemsVC.swift; sourceTree = "<group>"; };
+		56F8D6D6234CDBCA0081145B /* BestPriceForSHoppingFromItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestPriceForSHoppingFromItemVC.swift; sourceTree = "<group>"; };
+		56F8D6D8234CDCA40081145B /* ShoppingCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCardVC.swift; sourceTree = "<group>"; };
 		5B419E21233FDDAC00EB55A1 /* CheckInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
 		5B5EFB102332C963001DAB42 /* MaadobaOrMoratebatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaadobaOrMoratebatViewController.swift; sourceTree = "<group>"; };
 		5B5EFB122332CA00001DAB42 /* MaadobaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaadobaDetailsViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +266,8 @@
 				560E38AE234BA8E50036028F /* storeDetailsVC.swift */,
 				560E38B0234BB2700036028F /* typeOfStoreListVC.swift */,
 				560E38B2234BB7010036028F /* categoryListVC.swift */,
+				56F8D6CC234CC9C60081145B /* itemDetailsVC.swift */,
+				56F8D6CE234CCDF90081145B /* fatoraForShoppingVC.swift */,
 			);
 			path = shoppingFromStores;
 			sourceTree = "<group>";
@@ -239,6 +275,10 @@
 		560E38A8234BA1190036028F /* shoppingFromItems */ = {
 			isa = PBXGroup;
 			children = (
+				56F8D6D0234CD9150081145B /* DateForShoppingFromItemsVC.swift */,
+				56F8D6D2234CD9C60081145B /* ItemsListVC.swift */,
+				56F8D6D4234CDA3F0081145B /* typeOfStoredItemsVC.swift */,
+				56F8D6D6234CDBCA0081145B /* BestPriceForSHoppingFromItemVC.swift */,
 			);
 			path = shoppingFromItems;
 			sourceTree = "<group>";
@@ -254,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				564BE67A2347A1B900A75A76 /* Mo2nkmVC.swift */,
+				56F8D6D8234CDCA40081145B /* ShoppingCardVC.swift */,
 				560E38A7234BA1040036028F /* shoppingFromStores */,
 				560E38A8234BA1190036028F /* shoppingFromItems */,
 				560E38A9234BA1320036028F /* shoppingFromSahlApp */,
@@ -397,6 +438,44 @@
 			path = main;
 			sourceTree = "<group>";
 		};
+		56C0DB16234CEF2C00D43AEF /* btakatyWMkafaty */ = {
+			isa = PBXGroup;
+			children = (
+				56C0DB17234CEF5700D43AEF /* btakatyWMkafatyVC.swift */,
+				56C0DB19234CEF9F00D43AEF /* btakaDetailsVC.swift */,
+			);
+			path = btakatyWMkafaty;
+			sourceTree = "<group>";
+		};
+		56C0DB1B234CF3DB00D43AEF /* estrga3WEstbdal */ = {
+			isa = PBXGroup;
+			children = (
+				56C0DB1C234CF3FC00D43AEF /* estrga3WEstbdalVC.swift */,
+			);
+			path = estrga3WEstbdal;
+			sourceTree = "<group>";
+		};
+		56C0DB1E234CF57000D43AEF /* shkaywWEktra7at */ = {
+			isa = PBXGroup;
+			children = (
+				56C0DB1F234CF59400D43AEF /* shkaywWEktra7atVC.swift */,
+			);
+			path = shkaywWEktra7at;
+			sourceTree = "<group>";
+		};
+		56C0DB21234CF76000D43AEF /* aboutApplication */ = {
+			isa = PBXGroup;
+			children = (
+				56C0DB22234CF78400D43AEF /* aboutApplicationVC.swift */,
+				56C0DB24234CF7DD00D43AEF /* whoAreTsaheelVC.swift */,
+				56C0DB26234CF82400D43AEF /* rateTsaheelVC.swift */,
+				56C0DB28234CF85C00D43AEF /* privicyAndUseVC.swift */,
+				56C0DB2A234CF89900D43AEF /* documentationVC.swift */,
+				56C0DB2C234CF8C700D43AEF /* callUsVC.swift */,
+			);
+			path = aboutApplication;
+			sourceTree = "<group>";
+		};
 		56CC940523293A55007B7E10 /* Estrahat */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,10 +546,10 @@
 				563A12352348E11D008F92C6 /* shoppingFromStores.storyboard */,
 				563A12372348E178008F92C6 /* shoppingFromItems.storyboard */,
 				563A12392348E1BA008F92C6 /* shoppingFromSAHLApp.storyboard */,
+				560104E42349949A004356B1 /* trfehkm.storyboard */,
 				56E734B4230AC1300062C929 /* Assets.xcassets */,
 				56E734B6230AC1300062C929 /* LaunchScreen.storyboard */,
 				56E734B9230AC1300062C929 /* Info.plist */,
-				560104E42349949A004356B1 /* trfehkm.storyboard */,
 			);
 			path = tsaheel;
 			sourceTree = "<group>";
@@ -498,12 +577,16 @@
 		56E734C0230B067F0062C929 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				56C0DB21234CF76000D43AEF /* aboutApplication */,
 				56BB63F52325712E002D9A5D /* main */,
 				56BB63F423257119002D9A5D /* afrakm */,
 				564BE6772347A03B00A75A76 /* mo2nkm */,
 				564BE6782347A18100A75A76 /* m4tryaty */,
 				560104E123499452004356B1 /* trfehkm */,
+				56C0DB16234CEF2C00D43AEF /* btakatyWMkafaty */,
 				564BE6792347A18C00A75A76 /* Setting */,
+				56C0DB1B234CF3DB00D43AEF /* estrga3WEstbdal */,
+				56C0DB1E234CF57000D43AEF /* shkaywWEktra7at */,
 				56BB63F3232570EA002D9A5D /* others */,
 				56BB63F2232570CD002D9A5D /* auth */,
 			);
@@ -713,6 +796,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F8D6D1234CD9150081145B /* DateForShoppingFromItemsVC.swift in Sources */,
 				56BB63F1232564D7002D9A5D /* dateVC.swift in Sources */,
 				56CC940C23294901007B7E10 /* DateForWalemaVC.swift in Sources */,
 				569190DF230C161700AEF138 /* customButton.swift in Sources */,
@@ -722,12 +806,14 @@
 				560E38AD234BA6F30036028F /* storesListVC.swift in Sources */,
 				565F06A0232BF8C0008DAB98 /* kwshShapesVC.swift in Sources */,
 				56738E202314354D00201DA9 /* URLs.swift in Sources */,
+				56C0DB20234CF59400D43AEF /* shkaywWEktra7atVC.swift in Sources */,
 				56CC940E23295FB3007B7E10 /* mtabekhListVC.swift in Sources */,
 				5B678FA42334FEE100BA6658 /* EstrahaData.swift in Sources */,
 				569190E3230C3D0600AEF138 /* normalUserSignUpVC.swift in Sources */,
 				565F069A232BF684008DAB98 /* DateForKwshAndTaelatVC.swift in Sources */,
 				56B64AAC230F0F4E005E84BF /* forgetPasswordVC.swift in Sources */,
 				56CC941023295FE2007B7E10 /* WalemaCutomCell.swift in Sources */,
+				56C0DB18234CEF5700D43AEF /* btakatyWMkafatyVC.swift in Sources */,
 				5B678FA82335283D00BA6658 /* DetailsViewController.swift in Sources */,
 				560104E32349946D004356B1 /* trfehkmVC.swift in Sources */,
 				560E38A0234B99710036028F /* confirmFatoraOfEstrahaVC.swift in Sources */,
@@ -738,6 +824,8 @@
 				560E38B1234BB2700036028F /* typeOfStoreListVC.swift in Sources */,
 				564BE67B2347A1B900A75A76 /* Mo2nkmVC.swift in Sources */,
 				5B5EFB172332D490001DAB42 /* mrakzCustomCell.swift in Sources */,
+				56F8D6CF234CCDF90081145B /* fatoraForShoppingVC.swift in Sources */,
+				56C0DB27234CF82400D43AEF /* rateTsaheelVC.swift in Sources */,
 				560E38AF234BA8E50036028F /* storeDetailsVC.swift in Sources */,
 				565F069C232BF6D6008DAB98 /* KwshWTawlatListVC.swift in Sources */,
 				56889C8C231826E300A1AD13 /* dataServices.swift in Sources */,
@@ -751,23 +839,31 @@
 				56738E2223143E1600201DA9 /* helper.swift in Sources */,
 				564BE67D2347A1D000A75A76 /* M4traytyListVC.swift in Sources */,
 				56945E69232FD2E5003A3C1D /* tfaselEstrahaVC.swift in Sources */,
+				56C0DB1A234CEF9F00D43AEF /* btakaDetailsVC.swift in Sources */,
+				56C0DB25234CF7DD00D43AEF /* whoAreTsaheelVC.swift in Sources */,
 				565F069E232BF880008DAB98 /* kwshWTawlatCustomCell.swift in Sources */,
+				56C0DB2D234CF8C700D43AEF /* callUsVC.swift in Sources */,
 				569190E5230C3D4B00AEF138 /* delivaryUserSignUpVC.swift in Sources */,
 				56B64AAA230F00D0005E84BF /* customSearchBar.swift in Sources */,
 				56945E6D232FDB98003A3C1D /* khdmatMadfo3aCell.swift in Sources */,
 				56E734AE230AC12E0062C929 /* AppDelegate.swift in Sources */,
 				56889C932319A04600A1AD13 /* Constants.swift in Sources */,
+				56C0DB2B234CF89900D43AEF /* documentationVC.swift in Sources */,
 				56773CD5230EBAD100FDCAF8 /* HomePageVC.swift in Sources */,
 				5B678FA62335281900BA6658 /* MapViewController.swift in Sources */,
 				5B5EFB112332C963001DAB42 /* MaadobaOrMoratebatViewController.swift in Sources */,
 				5B5EFB152332D0B6001DAB42 /* m5abezCustomCell.swift in Sources */,
 				56EDAAE7231D67DE00B45C91 /* ImageData.swift in Sources */,
 				561E87A523158532000C243F /* editCompanyUser.swift in Sources */,
+				56F8D6D5234CDA3F0081145B /* typeOfStoredItemsVC.swift in Sources */,
 				561E87A123158505000C243F /* editNormalUserVC.swift in Sources */,
+				56F8D6D3234CD9C60081145B /* ItemsListVC.swift in Sources */,
 				56945E6B232FD50C003A3C1D /* customView.swift in Sources */,
+				56C0DB1D234CF3FC00D43AEF /* estrga3WEstbdalVC.swift in Sources */,
 				5689597E2312C83E00CA9133 /* networkRes.swift in Sources */,
 				568959802312D8B000CA9133 /* loginPageVC.swift in Sources */,
 				561E879F231577F1000C243F /* imgPicker.swift in Sources */,
+				56F8D6D7234CDBCA0081145B /* BestPriceForSHoppingFromItemVC.swift in Sources */,
 				561E87A32315851A000C243F /* editDelivaryUserVC.swift in Sources */,
 				569190E1230C3CCC00AEF138 /* signUpVC.swift in Sources */,
 				56889C9123199C9600A1AD13 /* RegisterDataModel.swift in Sources */,
@@ -777,6 +873,7 @@
 				569190E7230C3D7300AEF138 /* companyOwnerSignUpVC.swift in Sources */,
 				5B69704A232EC8970032E6E3 /* SWRevealViewController.m in Sources */,
 				565F068C232A9D85008DAB98 /* m5abezListVC.swift in Sources */,
+				56F8D6D9234CDCA40081145B /* ShoppingCardVC.swift in Sources */,
 				56889C9023199C9600A1AD13 /* Data.swift in Sources */,
 				56738E1D2314336900201DA9 /* trimmedString.swift in Sources */,
 				56889C952319A4BA00A1AD13 /* MenuTableViewVC.swift in Sources */,
@@ -785,11 +882,14 @@
 				56889C972319A51700A1AD13 /* MenuCell.swift in Sources */,
 				56CC940723293ACE007B7E10 /* EstrahatListVC.swift in Sources */,
 				56CC940923293E8B007B7E10 /* EstrahatcutomCell.swift in Sources */,
+				56F8D6CD234CC9C60081145B /* itemDetailsVC.swift in Sources */,
 				560E38AB234BA1630036028F /* dateForShoppingFromStoreVC.swift in Sources */,
 				569190DD230C13A100AEF138 /* customTextField.swift in Sources */,
 				56738E1A231431F700201DA9 /* api.swift in Sources */,
 				565F0693232BF4A3008DAB98 /* fatoraForMrtbatVC.swift in Sources */,
+				56C0DB23234CF78400D43AEF /* aboutApplicationVC.swift in Sources */,
 				565F0691232BF44B008DAB98 /* mrakzListVC.swift in Sources */,
+				56C0DB29234CF85C00D43AEF /* privicyAndUseVC.swift in Sources */,
 				5689597D2312C83E00CA9133 /* UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
